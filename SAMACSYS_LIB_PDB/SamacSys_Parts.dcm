@@ -1,0 +1,327 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NE555DR
+D Single Precision Timer
+K
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP PESD5V5C1BLYL
+D PESD5V5C1BL - Extremely low clamping bidirectional ESD protection diode@en-us
+K
+F https://assets.nexperia.com/documents/data-sheet/PESD5V0S1BA_BB_BL.pdf
+$ENDCMP
+#
+$CMP PESD4V0X2UMZ
+D ESD Suppressors / TVS Diodes PESD4V0X2UM/SOT883/XQFN3
+K
+F https://assets.nexperia.com/documents/data-sheet/PESD4V0X2UM.pdf
+$ENDCMP
+#
+$CMP LTC4353CMS#PBF
+D Dual Low Voltage Ideal Diode Controller
+K
+F https://componentsearchengine.com/Datasheets/1/LTC4353CMS#PBF.pdf
+$ENDCMP
+#
+$CMP LTC4414IMS8#TRPBF
+D Hot Swap Controller 1-CH 36V P-Channel Positive Voltage Automotive 8-Pin MSOP T/R
+K
+F https://www.arrow.com/en/products/ltc4414ims8trpbf/analog-devices
+$ENDCMP
+#
+$CMP LTC4451AV#TRMPBF
+D Schottky Diodes & Rectifiers 40V/8A Monolithic (NFET) Ideal Diodes
+K
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ltc4451.pdf
+$ENDCMP
+#
+$CMP PTVS3V3D1BALYL
+D PTVS3V3D1BAL - Ultra compact Transient Voltage Supressor
+K
+F https://assets.nexperia.com/documents/data-sheet/PTVS3V3D1BAL.pdf
+$ENDCMP
+#
+$CMP 7447709001
+D SMD-Shielded Power Inductors WE-PD
+K
+F 
+$ENDCMP
+#
+$CMP SRR6838A-1R0Y
+D Ind,6.8x6.8x3.8mm,1uH+/-30%,4.5A,
+K
+F https://g.componentsearchengine.com/Datasheets/0/20314705.pdf
+$ENDCMP
+#
+$CMP MSS1278T-392NLD
+D COILCRAFT - MSS1278T-392NLD - Power Inductor (SMD), 3.9 H, 7.7 A, Shielded, 16.52 A, MSS1278T, 12mm x 12mm x 7.8mm
+K
+F https://4donline.ihs.com/images/VipMasterIC/IC/COLC/COLC-S-A0014468445/COLC-S-A0014481328-1.pdf?hkey=6D3A4C79FDBF58556ACFDE234799DDF0
+$ENDCMP
+#
+$CMP TPS564252DRLR
+D Switching Voltage Regulators 3-V to 17-V input voltage, 4-A ECO mode, synchronous buck converter
+K
+F https://www.ti.com/lit/ds/symlink/tps564255.pdf?ts=1704808051474&ref_url=https%253A%252F%252Fwww.mouser.in%252F
+$ENDCMP
+#
+$CMP 78439358047
+D WURTH ELEKTRONIK - 78439358047 - Power Inductor (SMD), 4.7 H, 9.5 A, Shielded, 16.65 A, WE-XHMA Series
+K
+F 
+$ENDCMP
+#
+$CMP TPS22997RYZR
+D TPS22997 5.5-V, 10-A, 4-m On-Resistance Load Switch with Adjustable Rise Time
+K
+F https://www.ti.com/lit/gpn/tps22997?HQS=ti-null-null-sf-df-pf-sep-wwe&DCM=yes?hkey=EF798316E3902B6ED9A73243A3159BB0
+$ENDCMP
+#
+$CMP BTG70502EPLXUMA1
+D Power Switch ICs - Power Distribution
+K
+F 
+$ENDCMP
+#
+$CMP IPD047N03LF2SATMA1
+D N-Channel 30 V 71A (Tc) 65W (Tc) Surface Mount PG-TO252-3
+K
+F https://www.infineon.com/cms/en/product/power/mosfet/n-channel/ipd047n03lf2s/
+$ENDCMP
+#
+$CMP TPS2HB16FQPWPRQ1
+D Power Switch ICs - Power Distribution 40-V, 16-m , 2-ch automotive smart high-side switch with adjustable current limit 16-HTSSOP -40 to 125
+K
+F https://www.ti.com/lit/gpn/tps2hb16-q1
+$ENDCMP
+#
+$CMP PESD3V3Z1BCSFYL
+D PESD3V3Z1BCSF - Extremely low capacitance bidirectional ESD protection diode
+K
+F https://assets.nexperia.com/documents/data-sheet/PESD3V3Z1BCSF.pdf
+$ENDCMP
+#
+$CMP SMBJ12CA-TR
+D Peak pulse power: 600 W (10/1000 us) and 4 kW (8/20 us)  Stand-off voltage range from 5 V to 188 V  Unidirectional and bidirectional types  Low leakage current: 0.2 uA at 25 C and 1 uA at 85 C  Operating Tj  max: 150 C  High power capability at Tj  max.: up to 515 W (10/1000 s)  Lead finishing: matte tin plating
+K
+F http://www.st.com/web/en/resource/technical/document/datasheet/CD00001366.pdf
+$ENDCMP
+#
+$CMP SMBJ12CA
+D ESD Suppressors / TVS Diodes 12V 800W Bidir TransZorb 5% Tol
+K
+F 
+$ENDCMP
+#
+$CMP 43650-0211
+D Micro-Fit 3.0 Right-Angle Header, 3.00mm Pitch, Single Row, 2 Circuits, with PCB Press-fit Metal Retention Clip, Glow-Wire Capable, Black, Tape and Reel
+K
+F https://www.molex.com/pdm_docs/sd/436500209_sd.pdf
+$ENDCMP
+#
+$CMP 43650-0312
+D 3 way 1 row r/a surface mount PCB header Molex MICRO-FIT 3.0 Series, Series Number 43650, 3mm Pitch 3 Way 1 Row Shrouded Right Angle PCB Header, Surface Mount
+K
+F https://www.molex.com/pdm_docs/sd/436500212_sd.pdf
+$ENDCMP
+#
+$CMP TPS1HB08BQPWPRQ1
+D Power Switch ICs - Power Distribution 40V, 8-mOhm, 1-Ch smart high-side switch 16-HTSSOP -40 to 125
+K
+F https://www.ti.com/lit/gpn/TPS1HB08-Q1
+$ENDCMP
+#
+$CMP OS102011MA1QN1C
+D Switch Slide ON ON SPDT Side Slide 0.1A 12VDC 10000Cycles PC Pins Bracket Mount/Through Hole Bulk
+K
+F https://www.ckswitches.com/media/1428/os.pdf
+$ENDCMP
+#
+$CMP INA232AIDDFR
+D Current Monitor Regulator High/Low-Side TSOT-23-8
+K
+F https://www.ti.com/lit/ds/symlink/ina232.pdf?ts=1678135005205&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FINA232
+$ENDCMP
+#
+$CMP WSHM28186L800FEA
+D RES 0.0068 OHM 1% 7W 2818
+K
+F https://componentsearchengine.com/Datasheets/2/WSHM2818R0330FEB.pdf
+$ENDCMP
+#
+$CMP WSLP08059L000FEA18
+D Current Sense Resistors - SMD 1watt 0.009ohm 1%
+K
+F https://www.vishay.com/docs/30298/wslp18.pdf
+$ENDCMP
+#
+$CMP TLV75733PDBVR
+D LDO Voltage Regulators 1A Low-IQ Small-Size Low-Dropout (LDO) Regulator 5-SOT-23 -40 to 125
+K
+F http://www.ti.com/lit/gpn/tlv757p
+$ENDCMP
+#
+$CMP DLW5ATN112MQ2L
+D DLW5ATN_Q2L Series EMI Suppression Filter 1100 at 100MHz 2A 50V
+K
+F https://www.murata.com/en-us/products/productdetail?partno=DLW5ATN112MQ2%23
+$ENDCMP
+#
+$CMP BLM21PG221SN1D
+D Murata Ferrite Bead (Chip Ferrite Bead), 2 x 1.25 x 0.85mm
+K
+F https://datasheet.datasheetarchive.com/originals/dk/DKDS-31/605570.pdf
+$ENDCMP
+#
+$CMP BLM18AG601SN1D
+D BL Chip Ferrite Bead 0603
+K
+F http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb
+$ENDCMP
+#
+$CMP TCAN1044VDDFR
+D CAN XCVR WITH OPTIONAL FD
+K
+F https://www.ti.com/lit/gpn/TCAN1044V
+$ENDCMP
+#
+$CMP SN65HVD233QDRQ1
+D 3.3-V Automotive CAN Bus Transceivers
+K
+F http://www.ti.com/lit/gpn/sn65hvd233-q1
+$ENDCMP
+#
+$CMP PESD2CANFD24V-UX
+D PESD2CANFD24V-U - ESD protection for In-vehicle networks
+K
+F https://assets.nexperia.com/documents/data-sheet/PESD2CANFD24V-U.pdf
+$ENDCMP
+#
+$CMP 43045-1007
+D Micro-Fit 3.0 Right-Angle Header, 3.00mm Pitch, Dual Row, 10 Circuits, with PCB Press-fit Metal Retention Clip
+K
+F https://www.molex.com/pdm_docs/sd/430450206_sd.pdf
+$ENDCMP
+#
+$CMP 0154005.DR
+D Fuse, Surface Mount with Clip/Holder, 5 A, Very Fast Acting, 125 VAC, 125 VDC, 9.73mm x 5.03mm
+K
+F https://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_154_154t_154l_154tl_datasheet.pdf.pdf
+$ENDCMP
+#
+$CMP OS102011MA1QN1
+D Switch Slide Right Angle SPDT 0.1A 12VDC Through Hole Slide Switch SPDT On-On 0.1 A@ 12 V dc Slide
+K
+F https://www.ckswitches.com/media/1428/os.pdf
+$ENDCMP
+#
+$CMP S2761-46R
+D Circuit Board Hardware - PCB SMT Mini Test Terminal, Reel
+K
+F https://www.mouser.fr/ProductDetail/Harwin/S2761-46R?qs=DaxoyN%2FvrebHvZaagZ7Fog%3D%3D
+$ENDCMP
+#
+$CMP AHA0810220M063R
+D Aluminum Electrolytic Capacitors - SMD 22UF       63V ESR=40
+K
+F https://www.mouser.it/datasheet/2/40/kyocera_avx_aha_series-2887216.pdf
+$ENDCMP
+#
+$CMP B40950A0686M000
+D 80V, 68uF (M) d10x12,5 mm SMD HP
+K
+F https://product.tdk.com/system/files/dam/doc/product/capacitor/aluminum-electrolytic/hybrid-polymer/data_sheet/20/30/db/aec/b40950.pdf
+$ENDCMP
+#
+$CMP 7447709004
+D Wurth WE-PD Series Shielded Wire-wound SMD Inductor with a Ferrite Core, 4.7 uH +/-20% 9.3A Idc
+K
+F 
+$ENDCMP
+#
+$CMP TPS56837RPAR
+D 8-A Synchronous Buck Converter
+K
+F https://www.ti.com/lit/gpn/tps56837
+$ENDCMP
+#
+$CMP IHLP4040DZER3R3M01
+D Vishay IHLP4040DZ-01 Series Shielded Wire-wound SMD Inductor 3.3 uH +/-20% 18.6A Idc
+K
+F https://www.vishay.com/docs/34193/ihlp-4040dz-01.pdf
+$ENDCMP
+#
+$CMP TPS61288RQQR
+D 18V, 15A synch boost converter
+K
+F https://www.ti.com/lit/ds/symlink/tps61288.pdf?ts=1609351344517&ref_url=https%253A%252F%252Fwww.ti.com%252Fpower-management%252Fnon-isolated-dc-dc-switching-regulators%252Fstep-up-boost%252Fboost-converters-integrated-switch%252Fproducts.html
+$ENDCMP
+#
+$CMP IHLP5050FDER2R2MA1
+D Fixed Inductors 2.2uH 20% AEC-Q200
+K
+F https://www.vishay.com/docs/34249/ihlp-5050fd-a1.pdf
+$ENDCMP
+#
+$CMP BM12B-GHS-TBT_LF__SN_
+D JST GH Series, 1.25mm Pitch 12 Way Straight PCB Header, Solder Termination, 1A
+K
+F http://www.jst-mfg.com/product/pdf/eng/eGH.pdf
+$ENDCMP
+#
+$CMP BM09B-GHS-TBT_LF__SN_
+D Connector Header Surface Mount 9 position 0.049" (1.25mm) , 50V , 1A , -25C ~ 85C
+K
+F 
+$ENDCMP
+#
+$CMP RPMGE5.0-10
+D 10A DC/DC-Converter 'INNOLINE' 1/8 Brick OF reg
+K
+F https://recom-power.com/pdf/Innoline/RPMGE-10.pdf
+$ENDCMP
+#
+$CMP 0154010.DR
+D Fuse SMD OMNI-BLOK FF 10A
+K
+F http://m.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_154_154t_154l_154tl_datasheet.pdf.pdf
+$ENDCMP
+#
+$CMP REC30K-2405SZ
+D 30W DC/DC-Converter 'ECONOLINE' 1"x1" 2kV reg 4:1
+K
+F https://recom-power.com/pdf/Econoline/REC30K(-Z).pdf
+$ENDCMP
+#
+$CMP RPMGE12-10
+D 10A DC/DC-Converter 'INNOLINE' 1/8 Brick OF reg, VDC 18-75, 10A, 95%, F 11000.
+K
+F https://recom-power.com/pdf/Innoline/RPMGE-10.pdf
+$ENDCMP
+#
+$CMP S1751-46R
+D EZ_Boardware SMT Test Point 2.0mm high S1751-46R, Brass Grounding Contact Used with Surface Mount, 3.25 x 2 x 1.65
+K
+F https://cdn.harwin.com/pdfs/S1751R.pdf
+$ENDCMP
+#
+$CMP RPMA5.0-8.0_OF
+D 8 Amp 1/32 Brick Open Frame Single Output
+K
+F https://recom-power.com/pdf/Innoline/RPMA-8.0_OF.pdf
+$ENDCMP
+#
+$CMP 178.6165.0002
+D LITTELFUSE WICKMANN - 178.6165.0002 - FUSE HOLDER, PCB MOUNT
+K
+F https://www.littelfuse.com/~/media/commercial-vehicle/datasheets/automotive-fuse-holders/ato/littelfuse-fuse-holder-ato-flr-pcb-datasheet.pdf
+$ENDCMP
+#
+$CMP XT90PW-F
+D Connector: DC supply; socket; female; XT90; 40A; 500V; PIN: 2; THT
+K
+F https://www.tme.eu/Document/7357a049cc8e5ea73e34d2124a313a81/XT90PW.pdf
+$ENDCMP
+#
+#End Doc Library

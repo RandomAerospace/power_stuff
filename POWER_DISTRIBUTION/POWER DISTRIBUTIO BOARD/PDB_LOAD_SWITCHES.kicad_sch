@@ -1,0 +1,134 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "8a88c100-a2ee-4e61-9fe8-4de541c4172d")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 36.83 31.75)
+		(size 105.41 35.56)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2225c7de-7960-430d-8cd4-663cc3afb82a")
+		(property "Sheetname" "HIGH SIDE LOAD SWITCHES 5VDC BUS"
+			(at 36.83 31.0384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "untitled.kicad_sch"
+			(at 36.83 67.8946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "POWER DISTRIBUTIONB BOARD"
+				(path "/6b4fba0a-be05-4717-a711-480ed8a7f3e0/6951cc95-37ef-4a4f-8a3f-a120589363a5"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 35.56 130.81)
+		(size 121.92 35.56)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "28364470-c987-49cb-a285-9d427e41e45e")
+		(property "Sheetname" "HIGH SIDE LOAD SWITCHES 12VDC BUS"
+			(at 35.56 130.0984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PDB_HIGH_SIDE_LOAD_SWITCHES_12VDC_BUS.kicad_sch"
+			(at 35.56 166.9546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "POWER DISTRIBUTIONB BOARD"
+				(path "/6b4fba0a-be05-4717-a711-480ed8a7f3e0/6951cc95-37ef-4a4f-8a3f-a120589363a5"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 36.83 74.93)
+		(size 95.25 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "738a230f-796c-462d-b72e-a2b6a7f83b94")
+		(property "Sheetname" "HIGH SIDE LOAD SWITCHES DCDC CONVERTERS"
+			(at 36.83 74.2184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PDB_HIGH_SIDE_LOAD_SWITCHES_DCDC.kicad_sch"
+			(at 36.83 113.6146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "POWER DISTRIBUTIONB BOARD"
+				(path "/6b4fba0a-be05-4717-a711-480ed8a7f3e0/6951cc95-37ef-4a4f-8a3f-a120589363a5"
+					(page "5")
+				)
+			)
+		)
+	)
+)

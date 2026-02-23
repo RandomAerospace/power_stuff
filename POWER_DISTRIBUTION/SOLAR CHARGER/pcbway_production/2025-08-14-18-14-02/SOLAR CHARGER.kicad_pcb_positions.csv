@@ -1,0 +1,128 @@
+﻿pos_x,pos_y,rotation,side,designator,mpn,pack,footprint,value,mount_type
+85.05,-94.0,180.0,top,C1,,,C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,47uF @16VDC,smt
+95.6125,-106.485,90.0,top,C10,,,C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,47uF @16VDC,smt
+85.2125,-106.2475,90.0,top,C11,,,C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,1uF @50V,smt
+84.7625,-132.7625,90.0,top,C12,,,C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,1uF @50V,smt
+78.2,-104.0,-90.0,top,C13,,,C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,47uF @16VDC,smt
+80.6,-122.1,90.0,top,C14,,,C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,47uF @16VDC,smt
+91.9625,-94.2475,180.0,top,C15,,,C_1210_3225Metric_Pad1.33x2.70mm_HandSolder,10uF @50V,smt
+91.7625,-120.6,180.0,top,C16,,,C_1210_3225Metric_Pad1.33x2.70mm_HandSolder,10uF @50V,smt
+91.9625,-97.7975,180.0,top,C17,,,C_1210_3225Metric_Pad1.33x2.70mm_HandSolder,10uF @50V,smt
+91.7625,-123.9625,180.0,top,C18,,,C_1210_3225Metric_Pad1.33x2.70mm_HandSolder,10uF @50V,smt
+110.0,-100.4,0.0,top,C19,,,C_1210_3225Metric_Pad1.33x2.70mm_HandSolder,10uF @50V,smt
+84.7625,-117.4,180.0,top,C2,,,C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,47uF @16VDC,smt
+108.5,-125.4,0.0,top,C20,,,C_1210_3225Metric_Pad1.33x2.70mm_HandSolder,10uF @50V,smt
+113.0,-114.6,-90.0,top,C21,,,C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,47uF @16VDC,smt
+116.0,-114.6,-90.0,top,C22,,,C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,47uF @16VDC,smt
+129.4,-95.5,180.0,bottom,C23,,,C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,20p,smt
+131.9,-95.5,0.0,bottom,C24,,,C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,20p,smt
+128.2,-97.2,-90.0,bottom,C25,,,C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,100nF @50V,smt
+133.8,-97.8,0.0,bottom,C26,,,C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,100nF @50V,smt
+131.8,-89.8,0.0,top,C27,,,C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,100nF @50V,smt
+139.4,-101.6,-90.0,bottom,C28,,,C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,100nF @50V,smt
+138.6,-110.0,180.0,bottom,C29,,,C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,100nF @50V,smt
+85.05,-96.6,180.0,top,C3,,,C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,47uF @16VDC,smt
+127.2,-111.8,90.0,bottom,C30,,,C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,100nF @50V,smt
+125.4,-100.4,0.0,bottom,C31,,,C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,100nF @50V,smt
+125.0,-98.6,0.0,bottom,C33,,,C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,1uF @50V,smt
+147.4,-91.6,180.0,bottom,C34,,,C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,100nF @50V,smt
+104.4,-115.2,90.0,bottom,C35,,,C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,100nF @50V,smt
+138.165,-113.2,180.0,bottom,C36,,,C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,100nF @50V,smt
+138.965,-111.6,180.0,bottom,C37,,,C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,1uF @50V,smt
+136.4,-126.8,0.0,top,C38,,,C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,1uF @50V,smt
+131.0,-118.15,0.0,top,C39,,,C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,100nF @50V,smt
+84.7625,-119.9625,180.0,top,C4,,,C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,47uF @16VDC,smt
+130.2,-119.75,0.0,top,C40,,,C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,1uF @50V,smt
+130.2,-126.55,0.0,top,C41,,,C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,1uF @50V,smt
+130.2,-128.15,0.0,top,C42,,,C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,100nF @50V,smt
+110.0,-96.9,180.0,bottom,C43,,,C_1210_3225Metric_Pad1.33x2.70mm_HandSolder,10uF @50V,smt
+124.2,-115.4,0.0,top,C44,,,C_1210_3225Metric_Pad1.33x2.70mm_HandSolder,10uF @50V,smt
+124.2,-111.8,0.0,top,C45,,,C_1210_3225Metric_Pad1.33x2.70mm_HandSolder,10uF @50V,smt
+113.6,-101.1,180.0,bottom,C46,,,C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,100nF @50V,smt
+125.8,-120.2,90.0,top,C47,,,C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,100nF @50V,smt
+119.4,-105.8,0.0,top,C48,,,C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,100nF @50V,smt
+125.738,-123.537,0.0,top,C49,,,C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,1uF @50V,smt
+89.2,-106.275,180.0,top,C5,,,C_1210_3225Metric_Pad1.33x2.70mm_HandSolder,10uF @50V,smt
+120.8,-103.6,180.0,top,C50,,,C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,1uF @50V,smt
+117.6,-101.0,-90.0,bottom,C51,,,C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,1uF @50V,smt
+117.6,-96.6,90.0,bottom,C52,,,C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,1uF @50V,smt
+121.538,-123.537,180.0,top,C53,,,C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,1uF @50V,smt
+124.8,-103.6,0.0,top,C54,,,C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,1uF @50V,smt
+114.0,-126.9,180.0,bottom,C55,,,C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,100nF @50V,smt
+116.9,-122.0,90.0,bottom,C56,,,C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,1uF @50V,smt
+113.475,-130.0,0.0,bottom,C57,,,C_1210_3225Metric_Pad1.33x2.70mm_HandSolder,10uF @50V,smt
+116.9,-126.2,-90.0,bottom,C58,,,C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,1uF @50V,smt
+92.5625,-133.1625,-90.0,top,C6,,,C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,47uF @16VDC,smt
+93.0125,-106.4475,-90.0,top,C7,,,C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,47uF @16VDC,smt
+95.5625,-133.1625,90.0,top,C8,,,C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,47uF @16VDC,smt
+88.5625,-132.3625,180.0,top,C9,,,C_1210_3225Metric_Pad1.33x2.70mm_HandSolder,10uF @50V,smt
+80.4,-102.45,-90.0,top,D1,PTVS3V3D1BALYL,,PESD5V0S1BL315,PTVS3V3D1BALYL,smt
+80.65,-125.7,0.0,top,D2,PTVS3V3D1BALYL,,PESD5V0S1BL315,PTVS3V3D1BALYL,smt
+93.6,-90.4,180.0,top,D3,,,LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder,LED,smt
+93.6,-116.4,180.0,top,D4,,,LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder,LED,smt
+109.45,-103.1,180.0,top,D5,PTVS3V3D1BALYL,,PESD5V0S1BL315,PTVS3V3D1BALYL,smt
+107.9,-122.7,180.0,top,D6,PTVS3V3D1BALYL,,PESD5V0S1BL315,PTVS3V3D1BALYL,smt
+136.4,-130.136301,90.0,top,D7,PESD2CANFD24V-UX,,SOT65P210X110-3N,PESD2CANFD24V-UX,smt
+73.01,-97.8,0.0,top,F1,0154005.DR,,0154005DR,0154005.DR,smt
+73.0,-128.0,180.0,top,F2,0154005.DR,,0154005DR,0154005.DR,smt
+124.6,-96.6,180.0,bottom,FB1,BLM18AG601SN1D,,BLM18SP221SN1B,BLM18AG601SN1D,smt
+130.0,-129.75,180.0,top,FB2,BLM21PG221SN1D,,BEADC2012X105N,BLM21PG221SN1D,smt
+108.75,-106.45,-90.0,top,IC1,LTC4451AV#TRMPBF,,LTC4451AVTRMPBF,LTC4451AV#TRMPBF,smt
+108.65,-119.3,90.0,top,IC2,LTC4451AV#TRMPBF,,LTC4451AVTRMPBF,LTC4451AV#TRMPBF,smt
+101.65,-113.0,180.0,bottom,IC3,INA232AIDDFR,,SOT65P280X110-8N,INA232AIDDFR,smt
+136.4,-119.8,-90.0,top,IC4,SN65HVD233QDRQ1,,SOIC127P600X175-8N,SN65HVD233QDRQ1,smt
+114.5,-98.2,0.0,bottom,IC5,TPS22997RYZR,,TPS22997RYZR,TPS22997RYZR,smt
+122.85,-120.337,-90.0,top,IC6,TPS22997RYZR,,TPS22997RYZR,TPS22997RYZR,smt
+122.95,-106.937,90.0,top,IC7,TPS22997RYZR,,TPS22997RYZR,TPS22997RYZR,smt
+113.737,-124.087,0.0,bottom,IC8,TPS22997RYZR,,TPS22997RYZR,TPS22997RYZR,smt
+147.74,-94.2,-90.0,top,J1,,,PinHeader_1x03_P2.54mm_Vertical,Conn_01x03_Socket,tht
+137.4,-135.736301,180.0,top,J10,,,JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical,Conn_01x02,tht
+146.6,-119.46,0.0,top,J11,,,PinHeader_1x03_P2.54mm_Vertical,Conn_01x03,tht
+121.4,-88.25,0.0,top,J12,,,JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical,Conn_01x02,tht
+120.9,-136.45,0.0,top,J13,,,JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical,Conn_01x02,tht
+121.4,-98.2,90.0,top,J14,,,JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical,Conn_01x02,tht
+121.35,-129.8,90.0,top,J15,,,JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical,Conn_01x02,tht
+147.7,-101.05,90.0,top,J18,BM12B-GHS-TBT(LF)(SN),,BM12BGHSTBTLFSN,BM12B-GHS-TBT_LF__SN_,smt
+139.26,-89.07,90.0,top,J2,,,PinHeader_2x05_P1.27mm_Horizontal,Conn_ARM_JTAG_SWD_10,tht
+70.95,-107.4,-90.0,top,J3,,,JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal,Conn_01x02,tht
+77.8,-133.65,0.0,top,J5,,,JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal,Conn_01x02,tht
+79.8,-92.4,180.0,top,J6,,,JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal,Conn_01x02,tht
+71.0,-116.4,-90.0,top,J7,,,JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal,Conn_01x02,tht
+101.2,-130.2,-90.0,top,L1,SRR6838A-1R0Y,,INDPM6868X420N,SRR6838A-1R0Y,smt
+101.2,-104.3975,-90.0,top,L2,SRR6838A-1R0Y,,INDPM6868X420N,SRR6838A-1R0Y,smt
+130.4,-123.2,-90.0,top,PS1,TLV75733PDBVR,,SOT95P280X145-5N,TLV75733PDBVR,smt
+94.7,-101.0975,90.0,top,R1,,,R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,10k,smt
+92.8,-118.0,0.0,top,R10,,,R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,10k,smt
+130.6,-96.8,0.0,bottom,R11,,,R_0603_1608Metric,1M,smt
+144.4,-91.6,180.0,bottom,R12,,,R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,10k,smt
+118.4,-104.75,90.0,bottom,R13,,,R_0603_1608Metric,2.4k,smt
+145.4,-106.25,90.0,bottom,R14,,,R_0603_1608Metric,2.4k,smt
+118.4,-108.0,-90.0,bottom,R15,,,R_0603_1608Metric,2.4k,smt
+145.4,-109.5,-90.0,bottom,R16,,,R_0603_1608Metric,2.4k,smt
+107.2,-113.0,90.0,bottom,R17,WSLP08059L000FEA18,,RESC2013X58N,WSLP08059L000FEA18,smt
+138.0,-124.8,0.0,top,R18,,,R_0603_1608Metric,60,smt
+134.8,-124.8,0.0,top,R19,,,R_0603_1608Metric,60,smt
+93.5,-101.1,-90.0,top,R2,,,R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,10k,smt
+113.8,-95.3,180.0,bottom,R20,,,R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,10k,smt
+120.0,-120.8,90.0,top,R21,,,R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,10k,smt
+126.4,-107.6,180.0,top,R22,,,R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,10k,smt
+113.6,-121.2,180.0,bottom,R23,,,R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,10k,smt
+94.2,-127.0025,-90.0,top,R3,,,R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,10k,smt
+93.0,-127.0,90.0,top,R4,,,R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,10k,smt
+84.6,-103.2,0.0,top,R5,,,R_0603_1608Metric,20K,smt
+84.4,-129.2,0.0,top,R6,,,R_0603_1608Metric,20K,smt
+95.8,-98.2,-90.0,top,R7,,,R_0603_1608Metric,100K,smt
+95.7,-124.1,-90.0,top,R8,,,R_0603_1608Metric,100K,smt
+93.0125,-91.8725,0.0,top,R9,,,R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,10k,smt
+131.0,-88.2,180.0,top,S1,OS102011MA1QN1,,OS102011MA1QN1,OS102011MA1QN1,tht
+109.6,-116.0,0.0,top,TP10,S2761-46R,,S276146R,S2761-46R,smt
+74.0,-106.5,-90.0,bottom,TP11,S2761-46R,,S276146R,S2761-46R,smt
+76.8,-130.4,180.0,bottom,TP14,S2761-46R,,S276146R,S2761-46R,smt
+80.6,-95.5,180.0,bottom,TP15,S2761-46R,,S276146R,S2761-46R,smt
+76.7,-95.6,0.0,bottom,TP16,S2761-46R,,S276146R,S2761-46R,smt
+74.3,-115.9,90.0,bottom,TP17,S2761-46R,,S276146R,S2761-46R,smt
+109.6,-109.8,0.0,top,TP9,S2761-46R,,S276146R,S2761-46R,smt
+88.862499,-102.0475,90.0,top,U1,,,QFN-26_MP2731,MP2731GQC-0000-P,smt
+88.5625,-128.1625,90.0,top,U2,,,QFN-26_MP2731,MP2731GQC-0000-P,smt
+132.0,-105.175,-90.0,bottom,U3,,,LQFP-64_10x10mm_P0.5mm,STM32F103RGTx,smt
+130.6,-93.0,180.0,bottom,Y1,,,Crystal_SMD_5032-2Pin_5.0x3.2mm,Crystal,smt

@@ -1,0 +1,6 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "MP2731")(type "KiCad")(uri "D:/KiCad/PROJECT_SIGMA/STATE ESTIMATION/POWER_DISTRIBUTION/SAMACSYS_LIB_PDB/ul_MP2731GQC-0000-P/KiCADv6/footprints.pretty")(options "")(descr ""))
+  (lib (name "samac_sys")(type "KiCad")(uri "D:/KiCad/PROJECT_SIGMA/STATE ESTIMATION/POWER_DISTRIBUTION/SAMACSYS_LIB_PDB/SamacSys_Parts.pretty")(options "")(descr ""))
+  (lib (name "MP3432")(type "KiCad")(uri "D:/KiCad/PROJECT_SIGMA/STATE ESTIMATION/POWER_DISTRIBUTION/SAMACSYS_LIB_PDB/ul_MP3432GL-P/KiCADv6/footprints.pretty")(options "")(descr ""))
+)

@@ -1,0 +1,10 @@
+"Id";"Designator";"Footprint";"Quantity";"Designation";"Supplier and ref";
+1;"TP4,TP5,TP3,TP6,TP8,TP24,TP7";"S175146R";7;"S1751-46R";;;
+2;"F2,F1,F3";"0154001.DRT";3;"0154010.DR";;;
+3;"C31,C34,C33,C32";"C_Radial_D6.3mm_H5.0mm_P2.50mm";4;"47u";;;
+4;"J25,J26,J28,J27";"XT90PWF";4;"XT90PW-F";;;
+5;"J7,J4,J1";"AMASS_XT60-F_1x02_P7.20mm_Vertical";3;"Conn_01x02_Socket";;;
+6;"PS3,PS4";"RPMA5080OF";2;"RPMA5.0-8.0_OF";;;
+7;"U3,U2";"17861650002";2;"178.6165.0002";;;
+8;"R52";"R_0805_2012Metric_Pad1.20x1.40mm_HandSolder";1;"8k66";;;
+9;"R51";"R_0805_2012Metric_Pad1.20x1.40mm_HandSolder";1;"1k82";;;

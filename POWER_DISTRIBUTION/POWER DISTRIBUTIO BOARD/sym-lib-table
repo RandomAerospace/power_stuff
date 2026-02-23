@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "SamacSys_Parts")(type "Legacy")(uri "D:/KiCad/PROJECT_SIGMA/STATE ESTIMATION/POWER_DISTRIBUTION/SAMACSYS_LIB_PDB/SamacSys_Parts.lib")(options "")(descr ""))
+)
