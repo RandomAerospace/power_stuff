@@ -1,6 +1,6 @@
 (fp_lib_table
   (version 7)
-  (lib (name "SamacSys_Parts")(type "KiCad")(uri "C:/Users/STARGATE_user/Documents/KiCad/Github stuff/power_stuff/SAMACSYS_LIB_PDB/SamacSys_Parts.pretty")(options "")(descr ""))
-  (lib (name "MP3432GL")(type "KiCad")(uri "C:/Users/STARGATE_user/Documents/KiCad/Github stuff/power_stuff/SAMACSYS_LIB_PDB/ul_MP3432GL-P")(options "")(descr ""))
-  (lib (name "SamacSys_COMMS")(type "KiCad")(uri "C:/Users/alvin/Desktop/commsboardUREX/COMMS-BOARD/SAMACSYS_LIB_COMMS/SamacSys_Parts.pretty")(options "")(descr "")(disabled))
+  (lib (name "SamacSys_Parts")(type "KiCad")(uri "D:/KiCad/PROJECT_SIGMA/STATE ESTIMATION/POWER_DISTRIBUTION/power_stuff/SAMACSYS_LIB_PDB/SamacSys_Parts.pretty")(options "")(descr ""))
+  (lib (name "MP3432GL")(type "KiCad")(uri "D:/KiCad/PROJECT_SIGMA/STATE ESTIMATION/POWER_DISTRIBUTION/power_stuff/SAMACSYS_LIB_PDB/ul_MP3432GL-P")(options "")(descr ""))
+  (lib (name "SamacSys_COMMS")(type "KiCad")(uri "C:/Users/alvin/Desktop/commsboardUREX/COMMS-BOARD/SAMACSYS_LIB_COMMS/SamacSys_Parts.pretty")(options "")(descr ""))
 )

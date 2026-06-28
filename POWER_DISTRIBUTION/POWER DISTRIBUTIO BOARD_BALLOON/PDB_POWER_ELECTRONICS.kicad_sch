@@ -5787,6 +5787,46 @@
 		)
 	)
 	(table
+		(column_count 1)
+		(border
+			(external yes)
+			(header yes)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+		)
+		(separators
+			(rows yes)
+			(cols yes)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+		)
+		(column_widths 19.05)
+		(row_heights -5.08)
+		(cells
+			(table_cell ""
+				(exclude_from_sim no)
+				(at 321.31 195.58 0)
+				(size 19.05 -5.08)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "f5f0bb62-af55-47e0-9d60-4029796e42c6")
+			)
+		)
+	)
+	(table
 		(column_count 3)
 		(border
 			(external yes)
@@ -6418,46 +6458,6 @@
 					(justify left top)
 				)
 				(uuid "fd571bda-4129-4620-84e7-31d77163efbb")
-			)
-		)
-	)
-	(table
-		(column_count 1)
-		(border
-			(external yes)
-			(header yes)
-			(stroke
-				(width 0)
-				(type solid)
-			)
-		)
-		(separators
-			(rows yes)
-			(cols yes)
-			(stroke
-				(width 0)
-				(type solid)
-			)
-		)
-		(column_widths 19.05)
-		(row_heights -5.08)
-		(cells
-			(table_cell ""
-				(exclude_from_sim no)
-				(at 321.31 195.58 0)
-				(size 19.05 -5.08)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "f5f0bb62-af55-47e0-9d60-4029796e42c6")
 			)
 		)
 	)
@@ -7542,7 +7542,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:BEADC2012X105N"
+		(property "Footprint" "SamacSys_COMMS:BEADC2012X105N"
 			(at 186.69 178.74 0)
 			(effects
 				(font
@@ -12087,7 +12087,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:SOT95P280X145-5N"
+		(property "Footprint" "SamacSys_COMMS:SOT95P280X145-5N"
 			(at 129.54 176.2 0)
 			(effects
 				(font

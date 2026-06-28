@@ -1380,7 +1380,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:SOIC127P600X175-8N"
+		(property "Footprint" "SamacSys_COMMS:SOIC127P600X175-8N"
 			(at 101.6 68.58 0)
 			(effects
 				(font
@@ -1915,7 +1915,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:SOIC127P600X175-8N"
+		(property "Footprint" "SamacSys_COMMS:SOIC127P600X175-8N"
 			(at 186.69 68.58 0)
 			(effects
 				(font
