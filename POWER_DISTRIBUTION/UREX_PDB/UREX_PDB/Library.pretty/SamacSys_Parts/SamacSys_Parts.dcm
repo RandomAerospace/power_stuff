@@ -1,0 +1,63 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NE555DR
+D Single Precision Timer
+K
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP 62684-502100ALF
+D FFC & FPC Connectors 0.50mm Flex Connector, OPU Series, 50 Position , Side Entry, Upper Side Contact, Surface Mount, ZIF
+K
+F https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/62684.pdf
+$ENDCMP
+#
+$CMP SI2301CDS-T1-E3
+D VISHAY - SI2301CDS-T1-E3 - Power MOSFET, P Channel, 20 V, 3.1 A, 0.11 ohm, SOT-23, Surface Mount
+K
+F https://componentsearchengine.com/Datasheets/2/SI2301CDS-T1-E3.pdf
+$ENDCMP
+#
+$CMP TS-1187A-B-A-B
+D tact switch 4x4X1.5 patch 160GF metal head waterproof
+K
+F http://www.helloxkb.com/public/images/pdf/TS-1187A-X-X-X.pdf
+$ENDCMP
+#
+$CMP ABM8-40.000MHZ-10-1-U-T
+D 40 MHz +/-10ppm Crystal 10pF 35 Ohms 4-SMD, No Lead
+K
+F https://abracon.com/Resonators/abm8.pdf
+$ENDCMP
+#
+$CMP S25FL256LAGMFI003
+D CYPRESS SEMICONDUCTOR - S25FL256LAGMFI003 - FLASH MEMORY, 256MBIT, SOIC-16
+K
+F http://www.cypress.com/file/316171/download
+$ENDCMP
+#
+$CMP MAX17048G+T10
+D 3A 1-Cell/2-Cell Fuel Gauge with ModelGauge
+K
+F https://www.analog.com/MAX17048/datasheet
+$ENDCMP
+#
+$CMP 450404015514
+D WS-SLSU Mini Slide Switch 6.7 x 2.7 mm. SPDT, ON-ON, pitch 1.5 /3.0 mm, horizontal type, SMT, T&R
+K
+F https://www.we-online.com/catalog/datasheet/450404015514.pdf
+$ENDCMP
+#
+$CMP SP3205-01ETG
+D ESD Suppressors / TVS Diodes DIODE      30KV   UNI
+K
+F https://4donline.ihs.com/images/VipMasterIC/IC/LFSI/LFSI-S-A0010724013/LFSI-S-A0010724013-1.pdf?hkey=6D3A4C79FDBF58556ACFDE234799DDF0
+$ENDCMP
+#
+$CMP BMA400
+D Ultra-low power triaxial accelerometer
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/fa80b3d87963a3ff599e323b9a26d827.pdf
+$ENDCMP
+#
+#End Doc Library
