@@ -1,4 +1,4 @@
 (sym_lib_table
-  (version 7)
-  (lib (name "Library")(type "KiCad")(uri "${KICAD_PROJECT_DIR}/LibraryPDB/SamacSys_parts/SamacSys_Parts.kicad_sym")(options "")(descr ""))
+	(version 7)
+	(lib (name "Library") (type "KiCad") (uri "${KIPRJMOD}/Library.pretty/SamacSys_Parts/SamacSys_Parts.kicad_sym") (options "") (descr ""))
 )
