@@ -342,4 +342,40 @@ K
 F https://fscdn.rohm.com//en/products/databook/datasheet/discrete/transistor/mosfet/rss070n05hzgtb-e.pdf
 $ENDCMP
 #
+$CMP S4B-PH-SM4-TB_LF__SN_
+D PH SMT side entry shroud header 4 way JST PH Series, 2mm Pitch 4 Way 1 Row Right Angle PCB Header, Solder Termination, 2A
+K
+F 
+$ENDCMP
+#
+$CMP S2B-PH-SM4-TB_LF__SN_
+D Conn Shrouded Header (4 Sides) HDR 2 POS 2mm Solder RA Side Entry SMD T/R
+K
+F https://www.jst-mfg.com/product/pdf/eng/ePH.pdf
+$ENDCMP
+#
+$CMP S3B-PH-SM4-TB_LF__SN_
+D PH SMT side entry shroud header 3 way JST PH Series, 2mm Pitch 3 Way 1 Row Right Angle PCB Header, Solder Termination, 2A
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/75c02eb1799788a6b14d7c521ee36df4.pdf
+$ENDCMP
+#
+$CMP SMBJ15CA
+D 15V TVS for High Surge Protection
+K
+F https://www.semtech.com/products/circuit-protection/high-current-lightning-protection/smbj15ca
+$ENDCMP
+#
+$CMP SSC53L-E3_57T
+D Diode Schottky 30V 5A SMC Vishay SSC53L-E3/57T, SMT Schottky Diode, 30V 5A, 2-Pin DO-214AB
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA23/1391832.pdf
+$ENDCMP
+#
+$CMP S6B-PH-SM4-TB_LF__SN_
+D JST PH Series, 2mm Pitch 6 Way 1 Row Right Angle PCB Header, Solder Termination, 2A
+K
+F http://www.jst-mfg.com/product/pdf/eng/ePH.pdf
+$ENDCMP
+#
 #End Doc Library

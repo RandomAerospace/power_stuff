@@ -1439,4 +1439,142 @@ P 5 0 1 6 200 100 1300 100 1300 -400 200 -400 200 100 N
 ENDDRAW
 ENDDEF
 #
+#SamacSys ECAD Model S4B-PH-SM4-TB_LF__SN_
+#/239357/1099393/2.50/4/3/Connector
+DEF S4B-PH-SM4-TB_LF__SN_ J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "S4B-PH-SM4-TB_LF__SN_" 650 200 50 H V L CNN
+F2 "S4B-PH-SM4-TB" 650 100 50 H I L CNN
+F3 "" 650 0 50 H I L CNN
+F4 "PH SMT side entry shroud header 4 way JST PH Series, 2mm Pitch 4 Way 1 Row Right Angle PCB Header, Solder Termination, 2A" 650 -100 50 H I L CNN "Description"
+F5 "" 650 -200 50 H I L CNN "Height"
+F6 "N/A" 650 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/JST-Commercial/S4B-PH-SM4-TBLFSN?qs=QpmGXVUTftEzaH4PpGxkPQ%3D%3D" 650 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "JST (JAPAN SOLDERLESS TERMINALS)" 650 -500 50 H I L CNN "Manufacturer_Name"
+F9 "S4B-PH-SM4-TB(LF)(SN)" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+X 3 3 800 0 200 L 50 50 0 0 P
+X 4 4 800 -100 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model S2B-PH-SM4-TB_LF__SN_
+#/11517050/1099393/2.50/4/4/Connector
+DEF S2B-PH-SM4-TB_LF__SN_ J 0 30 Y Y 1 F N
+F0 "J" 750 300 50 H V L CNN
+F1 "S2B-PH-SM4-TB_LF__SN_" 750 200 50 H V L CNN
+F2 "S2BPHSM4TBLFSN" 750 100 50 H I L CNN
+F3 "https://www.jst-mfg.com/product/pdf/eng/ePH.pdf" 750 0 50 H I L CNN
+F4 "Conn Shrouded Header (4 Sides) HDR 2 POS 2mm Solder RA Side Entry SMD T/R" 750 -100 50 H I L CNN "Description"
+F5 "6.6" 750 -200 50 H I L CNN "Height"
+F6 "N/A" 750 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/JST-Commercial/S2B-PH-SM4-TBLFSN?qs=QpmGXVUTftEA9IU90i0xlg%3D%3D" 750 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "JST (JAPAN SOLDERLESS TERMINALS)" 750 -500 50 H I L CNN "Manufacturer_Name"
+F9 "S2B-PH-SM4-TB(LF)(SN)" 750 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X 1 1 0 -100 200 R 50 50 0 0 P
+X 2 2 0 0 200 R 50 50 0 0 P
+X MP1 MP1 900 -100 200 L 50 50 0 0 P
+X MP2 MP2 900 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 700 100 700 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model S3B-PH-SM4-TB_LF__SN_
+#/281112/1099393/2.50/5/4/Connector
+DEF S3B-PH-SM4-TB_LF__SN_ J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "S3B-PH-SM4-TB_LF__SN_" 650 200 50 H V L CNN
+F2 "S3BPHSM4TBLFSN" 650 100 50 H I L CNN
+F3 "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/75c02eb1799788a6b14d7c521ee36df4.pdf" 650 0 50 H I L CNN
+F4 "PH SMT side entry shroud header 3 way JST PH Series, 2mm Pitch 3 Way 1 Row Right Angle PCB Header, Solder Termination, 2A" 650 -100 50 H I L CNN "Description"
+F5 "5.5" 650 -200 50 H I L CNN "Height"
+F6 "N/A" 650 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/JST-Commercial/S3B-PH-SM4-TBLFSN?qs=QpmGXVUTftGJXptUJFK7oQ%3D%3D" 650 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "JST (JAPAN SOLDERLESS TERMINALS)" 650 -500 50 H I L CNN "Manufacturer_Name"
+F9 "S3B-PH-SM4-TB(LF)(SN)" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X 1 1 0 -200 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+X 3 3 0 0 200 R 50 50 0 0 P
+X 4 4 800 0 200 L 50 50 0 0 P
+X 5 5 800 -100 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model SMBJ15CA
+#/17384306/1099393/2.50/2/2/TVS Diode (Bi-directional)
+DEF SMBJ15CA D 0 30 Y Y 1 F N
+F0 "D" 500 350 50 H V L BNN
+F1 "SMBJ15CA" 500 250 50 H V L BNN
+F2 "DIONM5436X244N" 500 150 50 H I L BNN
+F3 "https://www.semtech.com/products/circuit-protection/high-current-lightning-protection/smbj15ca" 500 50 50 H I L BNN
+F4 "15V TVS for High Surge Protection" 500 -50 50 H I L BNN "Description"
+F5 "2.44" 500 -150 50 H I L BNN "Height"
+F6 "947-SMBJ15CA" 500 -250 50 H I L BNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Semtech/SMBJ15CA?qs=IPgv5n7u5QaNvCd%2F1ZFQtw%3D%3D" 500 -350 50 H I L BNN "Mouser Price/Stock"
+F8 "SEMTECH" 500 -450 50 H I L BNN "Manufacturer_Name"
+F9 "SMBJ15CA" 500 -550 50 H I L BNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 800 0 200 L 50 50 0 0 P
+P 4 0 1 6 400 0 200 -100 200 100 400 0 N
+P 4 0 1 6 400 0 600 -100 600 100 400 0 N
+P 2 0 1 6 400 -80 400 80 N
+P 2 0 1 6 360 100 400 80 N
+P 2 0 1 6 400 -80 440 -100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model SSC53L-E3_57T
+#/184379/1099393/2.50/2/4/Diode
+DEF SSC53L-E3_57T D 0 30 Y Y 1 F N
+F0 "D" 450 200 50 H V L CNN
+F1 "SSC53L-E3_57T" 450 100 50 H V L CNN
+F2 "DIOM7959X262N" 450 0 50 H I L CNN
+F3 "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA23/1391832.pdf" 450 -100 50 H I L CNN
+F4 "Diode Schottky 30V 5A SMC Vishay SSC53L-E3/57T, SMT Schottky Diode, 30V 5A, 2-Pin DO-214AB" 450 -200 50 H I L CNN "Description"
+F5 "2.62" 450 -300 50 H I L CNN "Height"
+F6 "625-SSC53L-E3" 450 -400 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Vishay-General-Semiconductor/SSC53L-E3-57T?qs=x2jpVgRnAtMzB1PGtQ8IgQ%3D%3D" 450 -500 50 H I L CNN "Mouser Price/Stock"
+F8 "Vishay" 450 -600 50 H I L CNN "Manufacturer_Name"
+F9 "SSC53L-E3/57T" 450 -700 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 100 R 50 50 0 0 P
+X ~ 2 600 0 100 L 50 50 0 0 P
+P 2 0 1 6 200 100 200 -100 N
+P 2 0 1 6 100 0 200 0 N
+P 2 0 1 6 400 0 500 0 N
+P 4 0 1 10 200 0 400 100 400 -100 200 0 F
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model S6B-PH-SM4-TB_LF__SN_
+#/333163/1099393/2.50/6/3/Connector
+DEF S6B-PH-SM4-TB_LF__SN_ J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "S6B-PH-SM4-TB_LF__SN_" 650 200 50 H V L CNN
+F2 "S6B-PH-SM4-TB(LF)(SN)_3" 650 100 50 H I L CNN
+F3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" 650 0 50 H I L CNN
+F4 "JST PH Series, 2mm Pitch 6 Way 1 Row Right Angle PCB Header, Solder Termination, 2A" 650 -100 50 H I L CNN "Description"
+F5 "" 650 -200 50 H I L CNN "Height"
+F6 "N/A" 650 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/JST-Commercial/S6B-PH-SM4-TBLFSN?qs=QpmGXVUTftEYgQjsWQcxqw%3D%3D" 650 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "JST (JAPAN SOLDERLESS TERMINALS)" 650 -500 50 H I L CNN "Manufacturer_Name"
+F9 "S6B-PH-SM4-TB(LF)(SN)" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+X 3 3 0 -200 200 R 50 50 0 0 P
+X 4 4 800 0 200 L 50 50 0 0 P
+X 5 5 800 -100 200 L 50 50 0 0 P
+X 6 6 800 -200 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
 #End Library
