@@ -378,4 +378,22 @@ K
 F http://www.jst-mfg.com/product/pdf/eng/ePH.pdf
 $ENDCMP
 #
+$CMP MAX7328AWE+
+D MAXIM INTEGRATED PRODUCTS - MAX7328AWE+ - I/O EXPANDER, I2C, 8PORT, WSOIC-16
+K
+F https://componentsearchengine.com/Datasheets/1/MAX7328AWE+.pdf
+$ENDCMP
+#
+$CMP TCA6408APWR
+D Low-Voltage 8-Bit I2C and SMBus I/O Expander
+K
+F http://www.ti.com/lit/gpn/tca6408a
+$ENDCMP
+#
+$CMP TCA6408ARGTR
+D I2C Interface 100kHz/400kHz 5.5V 16-Pin VQFN EP T/R
+K
+F https://www.ti.com/lit/ds/symlink/tca6408a.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1650414321322&ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.co
+$ENDCMP
+#
 #End Doc Library

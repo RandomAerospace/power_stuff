@@ -805,7 +805,7 @@
         "uuid": "a38818e8-e869-45a4-b642-866064a1ec6a"
       }
     ],
-    "used_designators": "IC5,J4,J7,J10,J32,J35-37,R2,#PWR156-157",
+    "used_designators": "IC5-6,#PWR203-204,#PWR206,#PWR216,#PWR218-219,#PWR221-222,#PWR227,C53-54",
     "variants": []
   },
   "sheets": [
@@ -824,6 +824,10 @@
     [
       "1b4f9c7e-4f3b-411b-8660-d0f0445392c4",
       "Connectors"
+    ],
+    [
+      "9e1dd132-3630-423f-a0f5-e2ddee46fcad",
+      "Pyro Channels"
     ]
   ],
   "text_variables": {},

@@ -3017,6 +3017,145 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:VCC"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "VCC"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VCC\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "VCC_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VCC_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(rectangle
 		(start 86.36 86.36)
@@ -3201,22 +3340,10 @@
 		(uuid "6aa4c978-3a4c-4a3d-8506-0c1902a17f68")
 	)
 	(junction
-		(at 24.13 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6f78d206-180c-4607-b0db-da4aa759c8f7")
-	)
-	(junction
 		(at 35.56 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "87138aec-45de-43b0-a6bc-c937e49a07d3")
-	)
-	(junction
-		(at 35.56 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8e41eee1-cd88-4a74-a68c-12646b74b2ad")
 	)
 	(junction
 		(at 27.94 26.67)
@@ -3371,16 +3498,6 @@
 			(type default)
 		)
 		(uuid "1783b762-ac4c-47b0-84d3-39d3b3334e73")
-	)
-	(wire
-		(pts
-			(xy 24.13 72.39) (xy 35.56 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "17d8dadb-80cc-4830-987b-b7b88f033eb8")
 	)
 	(wire
 		(pts
@@ -3674,7 +3791,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 60.96) (xy 35.56 72.39)
+			(xy 35.56 60.96) (xy 35.56 73.66)
 		)
 		(stroke
 			(width 0)
@@ -3794,16 +3911,6 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 73.66) (xy 35.56 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9cbc0540-15de-49b8-ba9f-2aa554c1d1b2")
-	)
-	(wire
-		(pts
 			(xy 96.52 133.35) (xy 114.3 133.35)
 		)
 		(stroke
@@ -3824,7 +3931,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 55.88) (xy 29.21 55.88)
+			(xy 19.05 55.88) (xy 29.21 55.88)
 		)
 		(stroke
 			(width 0)
@@ -3851,16 +3958,6 @@
 			(type default)
 		)
 		(uuid "a8bd6f64-9021-4b3e-8433-183ba7b7a969")
-	)
-	(wire
-		(pts
-			(xy 24.13 55.88) (xy 24.13 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a9ea93b0-1ea9-44ce-8361-122e33717162")
 	)
 	(wire
 		(pts
@@ -4141,16 +4238,6 @@
 			(type default)
 		)
 		(uuid "fd9a3679-e4e7-421c-8ba3-07475d3879fa")
-	)
-	(wire
-		(pts
-			(xy 19.05 55.88) (xy 24.13 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ffec7234-03e7-4eae-8587-ff9a49ac4214")
 	)
 	(global_label "onewire1"
 		(shape input)
@@ -4580,7 +4667,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "4db184f1-06a2-42fc-8a7c-eb37341eb651")
+			(uuid "31c8c95f-a47f-41c1-b223-11cc81e59c18")
 		)
 		(instances
 			(project "UREX_PDB"
@@ -4657,7 +4744,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "6e2d1cfb-47f3-440e-891a-9e10d84c21f6")
+			(uuid "b3d5bc38-0c15-42ed-bc79-84b48895f237")
 		)
 		(instances
 			(project "UREX_PDB"
@@ -4669,9 +4756,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+BATT")
-		(at 158.75 58.42 0)
-		(mirror y)
+		(lib_id "power:VCC")
+		(at 19.05 55.88 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4679,9 +4765,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "0b57f190-b5d6-4a3e-83a9-a22f23d79bc2")
-		(property "Reference" "#PWR0222"
-			(at 158.75 62.23 0)
+		(uuid "050956b2-def9-4a9c-981a-50fca6330a28")
+		(property "Reference" "#PWR084"
+			(at 19.05 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4691,18 +4777,19 @@
 				)
 			)
 		)
-		(property "Value" "+5V0"
-			(at 158.75 53.34 0)
+		(property "Value" "5VDC_BUS1"
+			(at 15.748 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 158.75 58.42 0)
+			(at 19.05 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4713,7 +4800,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 158.75 58.42 0)
+			(at 19.05 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4723,8 +4810,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 158.75 58.42 0)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 19.05 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4735,12 +4822,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "99cae67c-da09-4a8f-929c-7286a02a0c27")
+			(uuid "b3f9605a-97a2-486d-bb8d-c31b2e3ebfcd")
 		)
 		(instances
 			(project "UREX_PDB"
 				(path "/a38818e8-e869-45a4-b642-866064a1ec6a/1b4f9c7e-4f3b-411b-8660-d0f0445392c4"
-					(reference "#PWR0222")
+					(reference "#PWR084")
 					(unit 1)
 				)
 			)
@@ -4812,7 +4899,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "fffc04c3-dc23-4fb0-bfd6-2201e785b351")
+			(uuid "7bd26569-ba33-41c0-b9fe-1e7f8c910f6c")
 		)
 		(instances
 			(project "UREX_PDB"
@@ -4890,7 +4977,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "b13a5788-271a-41e7-bae0-3e6ac6a99847")
+			(uuid "eb680953-d3c3-444c-a65a-40ebc184fec3")
 		)
 		(instances
 			(project "UREX_PDB"
@@ -4968,7 +5055,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "dfc1bd01-09c5-41b9-ae41-87871e14d364")
+			(uuid "e3063636-a7b6-4493-8180-1986ddac294f")
 		)
 		(instances
 			(project "UREX_PDB"
@@ -5132,10 +5219,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "78626343-9dc7-412c-b77c-f25e312ac97b")
+			(uuid "164eb7eb-41ce-4059-b4f0-43b02a7acd17")
 		)
 		(pin "1"
-			(uuid "e38d10eb-a78f-41b7-9769-1bf911878b85")
+			(uuid "a111e6c8-be89-4528-b2a4-043ccab9314a")
 		)
 		(instances
 			(project "UREX_PDB"
@@ -5274,16 +5361,16 @@
 			)
 		)
 		(pin "2"
-			(uuid "b5d78c5f-5ffa-4b64-980d-3acc172a57d2")
+			(uuid "90456dbe-c5f7-4fa5-bc15-375b87ba22d2")
 		)
 		(pin "MP1"
-			(uuid "a412b538-3799-4bfb-a2b8-4c0e0ea010d6")
+			(uuid "667fe7d0-3593-4dc8-8462-615767764e06")
 		)
 		(pin "1"
-			(uuid "e32cb0d7-0b19-4f9f-a5ca-66ba6b3b1e91")
+			(uuid "44f24841-f1e6-4df2-87b5-0eb25f63b602")
 		)
 		(pin "MP2"
-			(uuid "d1d2a7cf-fa1f-464a-8e7b-a19a025e687b")
+			(uuid "9c294bbb-ebe3-4d20-a6ef-e6478f249cae")
 		)
 		(instances
 			(project "UREX_PDB"
@@ -5361,7 +5448,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "94c0dc44-9fd5-40a3-a746-ff6d229f5c66")
+			(uuid "c643c782-a81a-4ae8-8802-ff70bca6a352")
 		)
 		(instances
 			(project "UREX_PDB"
@@ -5440,10 +5527,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "594c5ab0-52de-45c5-8bed-ec955ef577d2")
+			(uuid "93d475c8-68dc-439c-9ad5-c6d57bd9eacf")
 		)
 		(pin "1"
-			(uuid "89c06183-88e4-4af1-a278-980bc5a6a9a0")
+			(uuid "1b084148-36fb-44d0-849c-a64512a8b86f")
 		)
 		(instances
 			(project "UREX_PDB"
@@ -5522,7 +5609,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "46adf0f7-ccb2-4616-a8a8-6ee83d218f7a")
+			(uuid "d8c7ad56-acbd-4f93-8858-cf4a8ef6e178")
 		)
 		(instances
 			(project "UREX_PDB"
@@ -5600,7 +5687,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "206fa5c0-bb13-4ff5-8363-4d5f95c54b3a")
+			(uuid "498b41ed-ba2c-4a18-b919-f7e53f587e9f")
 		)
 		(instances
 			(project "UREX_PDB"
@@ -5678,7 +5765,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "7339c7a4-9682-44cf-83d9-19753c8ac2bc")
+			(uuid "1b97beba-554f-4468-9725-123547168183")
 		)
 		(instances
 			(project "UREX_PDB"
@@ -5757,7 +5844,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "6aaf80e0-e93c-434e-a219-6fc8a97e5d22")
+			(uuid "f8295f5a-d61b-486e-b953-725b3227e7f5")
 		)
 		(instances
 			(project "UREX_PDB"
@@ -5836,10 +5923,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "828f12c4-1760-4bb3-adcf-37857609e477")
+			(uuid "84d929df-0204-452b-bb60-2cdc22709b2d")
 		)
 		(pin "1"
-			(uuid "38b1ace0-2a7c-439d-83d5-105cd3cf9219")
+			(uuid "f2b46a84-b3a6-44da-ac0d-7dca4372c4ef")
 		)
 		(instances
 			(project "UREX_PDB"
@@ -5936,10 +6023,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "de76b0e8-5586-49f7-b11c-463357560bdb")
+			(uuid "647b8427-d9d5-40d8-86e6-4f34db7d3c93")
 		)
 		(pin "2"
-			(uuid "1d59270b-ca75-4279-9431-b28deb35c3c7")
+			(uuid "e946aa56-94e4-4bca-bf71-4acfc6f2e51f")
 		)
 		(instances
 			(project "UREX_PDB"
@@ -6016,7 +6103,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "232bba7c-0c06-44c6-bc43-c56a4a662d54")
+			(uuid "1d4f01de-b039-49b0-a4a5-55ab39957776")
 		)
 		(instances
 			(project "UREX_PDB"
@@ -6093,7 +6180,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "6c366fcd-8785-4e18-afc5-1f58c3bbd388")
+			(uuid "c0fcc610-635e-46e6-b3b1-238e9223c75b")
 		)
 		(instances
 			(project "UREX_PDB"
@@ -6170,7 +6257,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "91e7997a-b6e8-43a1-a8df-31582f84e2f1")
+			(uuid "034c73a1-eaa1-4573-9d63-737dcff2bb7a")
 		)
 		(instances
 			(project "UREX_PDB"
@@ -6248,7 +6335,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "0f86d5d1-4540-4ca2-ab5d-2042bb62651c")
+			(uuid "22167f0c-1c5b-4462-be1c-fb5f348132cd")
 		)
 		(instances
 			(project "UREX_PDB"
@@ -6326,7 +6413,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "6d33637f-2221-402b-ab0a-a805a9ca68f4")
+			(uuid "1191a9f4-010c-42fc-9d31-0dd832899b59")
 		)
 		(instances
 			(project "UREX_PDB"
@@ -6404,12 +6491,90 @@
 			)
 		)
 		(pin "1"
-			(uuid "b50e041f-2e75-4b38-9ac2-795505b69200")
+			(uuid "bc8b5baa-3bee-41e3-ab32-c4099d6033dc")
 		)
 		(instances
 			(project "UREX_PDB"
 				(path "/a38818e8-e869-45a4-b642-866064a1ec6a/1b4f9c7e-4f3b-411b-8660-d0f0445392c4"
 					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 96.52 58.42 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6fe4bd38-d741-4388-b92b-bcf25702ee67")
+		(property "Reference" "#PWR083"
+			(at 96.52 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5VDC_BUS2"
+			(at 93.218 54.61 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 96.52 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fd7cc2a3-82e5-44c6-ab6e-ba89d9b0aac5")
+		)
+		(instances
+			(project "UREX_PDB"
+				(path "/a38818e8-e869-45a4-b642-866064a1ec6a/1b4f9c7e-4f3b-411b-8660-d0f0445392c4"
+					(reference "#PWR083")
 					(unit 1)
 				)
 			)
@@ -6482,90 +6647,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "aad22bf2-b9e2-4672-a0ae-eb3f88b3e373")
+			(uuid "a6fa5665-a216-4182-a1a4-4d792913b091")
 		)
 		(instances
 			(project "UREX_PDB"
 				(path "/a38818e8-e869-45a4-b642-866064a1ec6a/1b4f9c7e-4f3b-411b-8660-d0f0445392c4"
 					(reference "#FLG04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+BATT")
-		(at 96.52 58.42 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7385131a-802b-44e6-bd5d-e912e0bdfef9")
-		(property "Reference" "#PWR0219"
-			(at 96.52 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V0"
-			(at 96.52 53.34 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 96.52 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 96.52 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 96.52 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "26336d2c-f96e-4c5e-9e37-5e980eb5d540")
-		)
-		(instances
-			(project "UREX_PDB"
-				(path "/a38818e8-e869-45a4-b642-866064a1ec6a/1b4f9c7e-4f3b-411b-8660-d0f0445392c4"
-					(reference "#PWR0219")
 					(unit 1)
 				)
 			)
@@ -6725,13 +6812,13 @@
 			)
 		)
 		(pin "2"
-			(uuid "baf33200-2c0f-4057-8086-757715b6c8da")
+			(uuid "e8d5d158-f462-4dae-a61b-d6e6993bef27")
 		)
 		(pin "3"
-			(uuid "50aba54a-3214-4eca-849d-c9885afc8023")
+			(uuid "19d4b8dd-5c48-4576-8e33-96f272c9b291")
 		)
 		(pin "1"
-			(uuid "dc2217ae-1a81-4e43-9439-1bd220ac8ba9")
+			(uuid "e135a5e8-9b7e-45de-b991-d408a098d253")
 		)
 		(instances
 			(project "UREX_PDB"
@@ -6810,15 +6897,93 @@
 			)
 		)
 		(pin "2"
-			(uuid "cadd5d01-ab4e-4d8d-9402-3dbf61a19507")
+			(uuid "e1f57047-9840-4cfc-a6a6-1a3b54213113")
 		)
 		(pin "1"
-			(uuid "116ef88a-b033-46a1-80f9-5c1c33593952")
+			(uuid "747aa74d-b110-4250-ab7f-4caeb093131f")
 		)
 		(instances
 			(project "UREX_PDB"
 				(path "/a38818e8-e869-45a4-b642-866064a1ec6a/1b4f9c7e-4f3b-411b-8660-d0f0445392c4"
 					(reference "J34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 158.75 58.42 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7fa7e291-fb1a-49c5-9a34-584cab12f98c")
+		(property "Reference" "#PWR085"
+			(at 158.75 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5VDC_BUS3"
+			(at 155.448 54.61 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.75 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 158.75 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5b101fc0-ea59-4074-aba8-c255f781deac")
+		)
+		(instances
+			(project "UREX_PDB"
+				(path "/a38818e8-e869-45a4-b642-866064a1ec6a/1b4f9c7e-4f3b-411b-8660-d0f0445392c4"
+					(reference "#PWR085")
 					(unit 1)
 				)
 			)
@@ -6892,10 +7057,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "59bcdc75-778d-4b45-9d6f-fe49a128f008")
+			(uuid "2ecedcf2-6039-488b-8e78-626f4254a936")
 		)
 		(pin "1"
-			(uuid "301c2a04-1d39-46fe-a7bd-5c667536d896")
+			(uuid "8aad5443-c2f1-4ae9-b6ab-b0d14bfb6751")
 		)
 		(instances
 			(project "UREX_PDB"
@@ -7034,16 +7199,16 @@
 			)
 		)
 		(pin "2"
-			(uuid "b347e325-4383-40af-bf74-d1d5c0af264d")
+			(uuid "f4ed3c71-1de7-490f-b95d-069c19213fc9")
 		)
 		(pin "MP1"
-			(uuid "2bae55f0-ff70-44be-ac3d-5ca7c5fcaea0")
+			(uuid "03dd5e07-0a7a-48a1-80e0-111afdf2aa92")
 		)
 		(pin "1"
-			(uuid "01dce600-cf87-4d39-b3f8-c181579cfe6b")
+			(uuid "f0c8462c-b1b2-455f-867d-f2cd013106dc")
 		)
 		(pin "MP2"
-			(uuid "7aa1686a-b7fa-4c17-9d82-240d8f1e2c1c")
+			(uuid "9d7b2d3b-a061-4fdd-9fd6-75c067098020")
 		)
 		(instances
 			(project "UREX_PDB"
@@ -7182,16 +7347,16 @@
 			)
 		)
 		(pin "2"
-			(uuid "b7804ee7-960f-4b71-aeec-5e1aaba89fbe")
+			(uuid "0858e608-b207-4d0c-922c-00a71a66db0b")
 		)
 		(pin "MP1"
-			(uuid "fd478c15-5583-49c4-82ea-b090f072a0ce")
+			(uuid "ea036eef-650d-4d3b-a9c5-f3763fd56940")
 		)
 		(pin "1"
-			(uuid "c422ebbd-4b9e-4be1-a222-c0063e269e87")
+			(uuid "d7c5500e-64b4-4172-92d5-e9e4f6e5e705")
 		)
 		(pin "MP2"
-			(uuid "a0511d2e-20ef-4c26-bd1f-a38de9e4c1b1")
+			(uuid "d9f48ff1-f284-4981-a0d6-1da33c0cc6dc")
 		)
 		(instances
 			(project "UREX_PDB"
@@ -7288,10 +7453,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "caa49f3d-e009-42d1-a59d-20939d277a20")
+			(uuid "d4a30947-71e7-44bd-ab21-07f1e2a7c290")
 		)
 		(pin "2"
-			(uuid "4c28d847-8fac-49d4-9070-2b96696163a0")
+			(uuid "5b6f6f0b-17ce-487d-9df3-31d718698ad1")
 		)
 		(instances
 			(project "UREX_PDB"
@@ -7430,22 +7595,22 @@
 			)
 		)
 		(pin "1"
-			(uuid "8807cc84-0e41-4fa5-ad46-1932f889d908")
+			(uuid "ad863711-fa08-45ef-81c8-b440ec881e75")
 		)
 		(pin "2"
-			(uuid "02290631-919a-46fe-917d-a060e3ec8c3b")
+			(uuid "d43a6d48-fcd5-4584-9821-6a4f9e67779f")
 		)
 		(pin "3"
-			(uuid "3fb33a6d-3c4b-4cdf-b8c2-397a1189f49f")
+			(uuid "e91e67d1-d626-4bdd-81a1-0282cadf07b4")
 		)
 		(pin "4"
-			(uuid "40f7d9c4-524a-4e5d-b681-39a8ab69651c")
+			(uuid "91db8c38-225b-4867-9963-20761d1228bd")
 		)
 		(pin "5"
-			(uuid "41a2f5a3-8e0f-4736-95d8-3970c17cfa14")
+			(uuid "7e7f6867-e88d-4cf8-8218-3529671c6bcc")
 		)
 		(pin "6"
-			(uuid "d023e5eb-4548-4939-b721-0bf46faa67b2")
+			(uuid "d970e74a-998e-4652-b145-f95a9822b3cb")
 		)
 		(instances
 			(project "UREX_PDB"
@@ -7524,7 +7689,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "8f780ce3-0044-40cc-b003-6fd45c249e3e")
+			(uuid "34156cb0-3429-4c31-a4ce-60bf237d21bf")
 		)
 		(instances
 			(project "UREX_PDB"
@@ -7602,7 +7767,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "13de1375-8858-4819-b6f0-d01efa4fd599")
+			(uuid "8db1363c-3257-4243-8153-d05ab4cf3e2f")
 		)
 		(instances
 			(project "UREX_PDB"
@@ -7680,7 +7845,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "d274b2b0-c28d-46bf-bbd9-8233676522d4")
+			(uuid "a5aec6c5-a92a-4561-934c-4e21d51c9dac")
 		)
 		(instances
 			(project "UREX_PDB"
@@ -7758,90 +7923,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "62ee0932-f07a-475f-81d1-d311ae8089b4")
+			(uuid "e30e65db-a3e9-4d55-9e42-84255f5bd069")
 		)
 		(instances
 			(project "UREX_PDB"
 				(path "/a38818e8-e869-45a4-b642-866064a1ec6a/1b4f9c7e-4f3b-411b-8660-d0f0445392c4"
 					(reference "#PWR053")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+BATT")
-		(at 19.05 55.88 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a0fa84ba-2701-471c-b913-570a0fc9a6c0")
-		(property "Reference" "#PWR0150"
-			(at 19.05 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V0"
-			(at 19.05 50.8 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 19.05 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 19.05 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 19.05 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0576ed8e-887c-4e55-b436-4287965ecd7c")
-		)
-		(instances
-			(project "UREX_PDB"
-				(path "/a38818e8-e869-45a4-b642-866064a1ec6a/1b4f9c7e-4f3b-411b-8660-d0f0445392c4"
-					(reference "#PWR0150")
 					(unit 1)
 				)
 			)
@@ -7914,7 +8001,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "047182e8-c69c-40bc-9c40-302ae457e01e")
+			(uuid "acb940e3-c5d3-4ddb-91cd-56f653c414ee")
 		)
 		(instances
 			(project "UREX_PDB"
@@ -7992,7 +8079,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "262004b9-492e-497a-a52a-07e69c3f1d9e")
+			(uuid "6b54a920-0d15-40b5-8a0d-4ac272a6db1a")
 		)
 		(instances
 			(project "UREX_PDB"
@@ -8131,19 +8218,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "e0697ba9-86e4-49d9-b620-6f26f621cb2d")
+			(uuid "ff1d0d25-af9a-4cd1-9a49-65463c9b577f")
 		)
 		(pin "4"
-			(uuid "adac6983-251f-4aaf-a1b6-07ab38660e25")
+			(uuid "5ae6138b-cb08-4892-b23a-f7d1541e8588")
 		)
 		(pin "5"
-			(uuid "5c3dc2df-e175-4a19-8a55-415a4fe95707")
+			(uuid "b9cbb50d-5bbb-463c-9706-8ee80044301a")
 		)
 		(pin "3"
-			(uuid "3a3c24cb-90e7-436a-b479-47e39c67c74c")
+			(uuid "53118230-42b9-4cd5-b91f-7c5be49c2ae5")
 		)
 		(pin "2"
-			(uuid "7545b5b9-50b0-4a0c-95cc-ff5e7a95005f")
+			(uuid "dd47eee1-0ad2-4c36-83ad-92a6afb4cff1")
 		)
 		(instances
 			(project "UREX_PDB"
@@ -8222,183 +8309,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "92b30749-78fe-4d0c-bc33-04a8d35664ab")
+			(uuid "61b8cc4f-0c63-41b7-9ea8-b4afb1450348")
 		)
 		(pin "2"
-			(uuid "0bc3d131-1e29-4881-8631-531981d8538b")
+			(uuid "4d58a801-5a1f-4466-939a-3a528aa69aa8")
 		)
 		(instances
 			(project "UREX_PDB"
 				(path "/a38818e8-e869-45a4-b642-866064a1ec6a/1b4f9c7e-4f3b-411b-8660-d0f0445392c4"
 					(reference "J11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SamacSys_COMMS:SSC53L-E3_57T")
-		(at 24.13 57.15 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ae544b86-ec66-4441-90a0-47f7ff6728b7")
-		(property "Reference" "D8"
-			(at 27.94 63.4999 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SSC53L-E3_57T"
-			(at 27.94 66.0399 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "SamacSys_Parts:DIOM7959X262N"
-			(at -73.33 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA23/1391832.pdf"
-			(at -173.33 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "Diode Schottky 30V 5A SMC Vishay SSC53L-E3/57T, SMT Schottky Diode, 30V 5A, 2-Pin DO-214AB"
-			(at 24.13 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" "2.62"
-			(at -373.33 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "Vishay"
-			(at -473.33 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "SSC53L-E3/57T"
-			(at -573.33 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Part Number" "625-SSC53L-E3"
-			(at -673.33 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-General-Semiconductor/SSC53L-E3-57T?qs=x2jpVgRnAtMzB1PGtQ8IgQ%3D%3D"
-			(at -773.33 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Arrow Part Number" "SSC53L-E3/57T"
-			(at -873.33 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ssc53l-e357t/vishay?utm_currency=USD&region=nac"
-			(at -973.33 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "2"
-			(uuid "3634d35e-4903-48ad-aac4-a75dabe6628a")
-		)
-		(pin "1"
-			(uuid "ba2dedef-c6de-46bb-838b-d65c4c9bed67")
-		)
-		(instances
-			(project "UREX_PDB"
-				(path "/a38818e8-e869-45a4-b642-866064a1ec6a/1b4f9c7e-4f3b-411b-8660-d0f0445392c4"
-					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -8471,7 +8390,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "a92a21d0-1fac-4087-96ed-599a7c2519ae")
+			(uuid "ebb66052-a06f-4a93-841f-d43fe2f1de9f")
 		)
 		(instances
 			(project "UREX_PDB"
@@ -8611,16 +8530,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "56578e89-52e0-42c7-80d1-4dfbf72ab014")
+			(uuid "61312270-8d7f-41f7-b538-5e361652bd41")
 		)
 		(pin "3"
-			(uuid "45c39c4f-51d5-4eca-82c8-11a83919e1b5")
+			(uuid "580625a8-82ae-4434-8a40-bb9e9bf408da")
 		)
 		(pin "4"
-			(uuid "d5cc35f1-b14b-4848-83a7-e1515969e376")
+			(uuid "39ec26cb-9b9a-4a64-b518-424634b6238c")
 		)
 		(pin "2"
-			(uuid "8754dc18-03db-49fa-bc95-e44059674855")
+			(uuid "0e14cba1-bb46-4e2f-b584-1e53c90d9328")
 		)
 		(instances
 			(project "UREX_PDB"
@@ -8699,7 +8618,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "4db184f1-06a2-42fc-8a7c-eb37341eb652")
+			(uuid "d2492fff-705b-43c3-b8ae-10adb9b4a9e9")
 		)
 		(instances
 			(project "UREX_PDB"
@@ -8778,7 +8697,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "4db184f1-06a2-42fc-8a7c-eb37341eb653")
+			(uuid "a51bae11-6209-4aaf-afe3-63ae8bf35f31")
 		)
 		(instances
 			(project "UREX_PDB"
@@ -8917,19 +8836,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "9f0507fb-ad91-44cb-8537-853b9c341fef")
+			(uuid "41348c3a-aa55-41fe-af44-7e5acfe579ac")
 		)
 		(pin "4"
-			(uuid "952308b5-62ee-4cd6-add6-f985c38c58b4")
+			(uuid "c1697b6b-40fc-45b3-84ef-70d1a41436e9")
 		)
 		(pin "5"
-			(uuid "d695fae2-c81b-4bc7-8737-da9a4061faf7")
+			(uuid "a70fd12c-5c67-4510-a8fd-556e801a9334")
 		)
 		(pin "3"
-			(uuid "97208fa4-b2ec-4cba-8841-68b2232d30a3")
+			(uuid "364c6d17-4cac-4156-afd9-fe920a60963a")
 		)
 		(pin "2"
-			(uuid "4aa28ee5-799e-47e8-be6c-3b8c29148d4c")
+			(uuid "bd411a38-2e8c-43c7-b02f-91baf05df660")
 		)
 		(instances
 			(project "UREX_PDB"
@@ -9008,7 +8927,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "4db184f1-06a2-42fc-8a7c-eb37341eb654")
+			(uuid "ed8d4e6a-88d1-487c-8786-7f13ccce18c9")
 		)
 		(instances
 			(project "UREX_PDB"
@@ -9110,22 +9029,22 @@
 			)
 		)
 		(pin "4"
-			(uuid "719cf3f2-f00f-43d6-951c-4a3b31edd60b")
+			(uuid "8762375d-27be-481c-af2b-f3dfb7e5dd32")
 		)
 		(pin "3"
-			(uuid "939b773d-0239-49bc-a6d2-c00f1f7fab4b")
+			(uuid "139b0273-a62d-419e-b005-b09ae992697c")
 		)
 		(pin "5"
-			(uuid "f89fb24a-fa92-4ce2-b7a8-c06e05e8e26d")
+			(uuid "a6a9c9aa-627f-4f48-9cb0-bc6862304521")
 		)
 		(pin "2"
-			(uuid "8f918439-05b0-40cb-ba48-75b54b5f3845")
+			(uuid "f4182477-34e2-41fe-ae99-3d8fe7d28ad7")
 		)
 		(pin "1"
-			(uuid "b65249e3-195b-4bbd-ba12-5fb1ac879395")
+			(uuid "7374cb81-8f91-48c3-b93d-76be133761c5")
 		)
 		(pin "6"
-			(uuid "bdc2e2d6-ef5d-4839-9858-972791c3cc49")
+			(uuid "371df69e-710a-4cb1-95b6-4d8c607e7955")
 		)
 		(instances
 			(project "UREX_PDB"
@@ -9203,7 +9122,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "ade57206-212d-4a31-8e5a-f770f90101ba")
+			(uuid "7c392ec2-26e5-4651-b100-44e87f3cd1dd")
 		)
 		(instances
 			(project "UREX_PDB"
@@ -9281,7 +9200,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "885af421-f3ba-4f17-9d23-364992dfa231")
+			(uuid "1b99923d-9540-46e0-b1a8-f5c25a4f6731")
 		)
 		(instances
 			(project "UREX_PDB"
@@ -9359,7 +9278,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "866a990c-f505-4bc4-ab90-f9713b3db634")
+			(uuid "c5378997-7a7d-46a3-b1a2-5a4994f2d829")
 		)
 		(instances
 			(project "UREX_PDB"
@@ -9437,7 +9356,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "e39690e3-33e2-432a-bcc1-bca29a8a8025")
+			(uuid "caa6d14c-832c-4407-940c-ee2a7ab747a0")
 		)
 		(instances
 			(project "UREX_PDB"
