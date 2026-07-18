@@ -1190,29 +1190,27 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "PS"
-				(at 21.59 7.62 0)
+			(property "Reference" "PS1"
+				(at 12.7 7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 				)
 			)
 			(property "Value" "TLV75733PDBVR"
-				(at 21.59 5.08 0)
+				(at 12.7 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 				)
 			)
-			(property "Footprint" "SOT95P280X145-5N"
+			(property "Footprint" "SamacSys_Parts:SOT95P280X145-5N"
 				(at 21.59 -94.92 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1397,7 +1395,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin output line
 					(at 25.4 0 180)
 					(length 5.08)
 					(name "NC"
@@ -2938,6 +2936,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 152.4) (xy 138.43 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44ab4791-10ab-4222-a21b-fa50bfdf8b9f")
+	)
+	(wire
+		(pts
 			(xy 44.45 62.23) (xy 36.83 62.23)
 		)
 		(stroke
@@ -3185,6 +3193,16 @@
 			(type default)
 		)
 		(uuid "7de199c8-500a-4d9b-8441-5f588ce19ca7")
+	)
+	(wire
+		(pts
+			(xy 138.43 149.86) (xy 138.43 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fcc06b5-3e07-4e3c-b602-5ceefd3ce70a")
 	)
 	(wire
 		(pts
@@ -8043,6 +8061,84 @@
 			(project "UREX_PDB"
 				(path "/a38818e8-e869-45a4-b642-866064a1ec6a/b3eb405f-da3d-4f70-ac2c-72d781132e9f"
 					(reference "C47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 138.43 149.86 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "facd56b9-02d7-4927-97eb-6b08d5f6ba83")
+		(property "Reference" "#PWR041"
+			(at 138.43 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 138.43 144.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 138.43 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 138.43 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "26744732-50e5-4a2c-9693-ebd50cca060d")
+		)
+		(instances
+			(project "UREX_PDB"
+				(path "/a38818e8-e869-45a4-b642-866064a1ec6a/b3eb405f-da3d-4f70-ac2c-72d781132e9f"
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)

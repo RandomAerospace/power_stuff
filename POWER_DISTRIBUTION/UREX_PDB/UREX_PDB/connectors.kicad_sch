@@ -3346,10 +3346,22 @@
 		(uuid "87138aec-45de-43b0-a6bc-c937e49a07d3")
 	)
 	(junction
+		(at 29.21 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8a7c04ca-5def-48f9-9d9b-7cd5b83a2943")
+	)
+	(junction
 		(at 27.94 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8f4f4ff8-e6be-48a7-8adf-b5c73f42f5b1")
+	)
+	(junction
+		(at 102.87 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ac0e6643-dd24-4add-b3c7-42ddf1fd0322")
 	)
 	(junction
 		(at 25.4 41.91)
@@ -3531,7 +3543,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 60.96) (xy 107.95 60.96)
+			(xy 96.52 60.96) (xy 102.87 60.96)
 		)
 		(stroke
 			(width 0)
@@ -3581,7 +3593,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 55.88) (xy 29.21 58.42)
+			(xy 29.21 49.53) (xy 29.21 58.42)
 		)
 		(stroke
 			(width 0)
@@ -3701,6 +3713,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 60.96) (xy 107.95 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6afc7e40-2544-4fe6-a414-82ad49153fb5")
+	)
+	(wire
+		(pts
 			(xy 116.84 110.49) (xy 119.38 110.49)
 		)
 		(stroke
@@ -3781,7 +3803,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 53.34) (xy 185.42 53.34)
+			(xy 177.8 48.26) (xy 180.34 48.26)
 		)
 		(stroke
 			(width 0)
@@ -3931,7 +3953,17 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 55.88) (xy 29.21 55.88)
+			(xy 106.68 49.53) (xy 102.87 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a18b8274-8f7b-4424-ba68-472a4634ae57")
+	)
+	(wire
+		(pts
+			(xy 19.05 58.42) (xy 29.21 58.42)
 		)
 		(stroke
 			(width 0)
@@ -4008,6 +4040,16 @@
 			(type default)
 		)
 		(uuid "b207664f-759d-499b-9d02-ef1befe9c486")
+	)
+	(wire
+		(pts
+			(xy 31.75 49.53) (xy 29.21 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b673a291-3411-47d1-b5c9-4b13b21a5f02")
 	)
 	(wire
 		(pts
@@ -4131,7 +4173,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 53.34) (xy 177.8 59.69)
+			(xy 177.8 48.26) (xy 177.8 59.69)
 		)
 		(stroke
 			(width 0)
@@ -4198,6 +4240,16 @@
 			(type default)
 		)
 		(uuid "f541c150-474e-40ae-a3f4-043ddab74e95")
+	)
+	(wire
+		(pts
+			(xy 102.87 49.53) (xy 102.87 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6d61884-be40-4fe3-9b41-36918d24946a")
 	)
 	(wire
 		(pts
@@ -4633,7 +4685,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:S175146R"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm"
 			(at 40.64 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -4757,7 +4809,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 19.05 55.88 0)
+		(at 19.05 58.42 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4767,7 +4819,7 @@
 		(dnp no)
 		(uuid "050956b2-def9-4a9c-981a-50fca6330a28")
 		(property "Reference" "#PWR084"
-			(at 19.05 59.69 0)
+			(at 19.05 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4778,7 +4830,7 @@
 			)
 		)
 		(property "Value" "5VDC_BUS1"
-			(at 15.748 52.07 0)
+			(at 15.748 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4789,7 +4841,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 19.05 55.88 0)
+			(at 19.05 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4800,7 +4852,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 19.05 55.88 0)
+			(at 19.05 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4811,7 +4863,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 19.05 55.88 0)
+			(at 19.05 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4828,6 +4880,85 @@
 			(project "UREX_PDB"
 				(path "/a38818e8-e869-45a4-b642-866064a1ec6a/1b4f9c7e-4f3b-411b-8660-d0f0445392c4"
 					(reference "#PWR084")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 106.68 49.53 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "09306cb9-9376-4105-95b9-44a4cf66b59b")
+		(property "Reference" "TP8"
+			(at 111.76 48.2599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 111.76 50.7999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm"
+			(at 106.68 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 106.68 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4823e5b6-176f-47eb-86b6-180c999c872e")
+		)
+		(instances
+			(project "UREX_PDB"
+				(path "/a38818e8-e869-45a4-b642-866064a1ec6a/1b4f9c7e-4f3b-411b-8660-d0f0445392c4"
+					(reference "TP8")
 					(unit 1)
 				)
 			)
@@ -5778,7 +5909,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 185.42 53.34 270)
+		(at 180.34 48.26 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5789,7 +5920,7 @@
 		(fields_autoplaced yes)
 		(uuid "4e08bb69-1bb3-4c3b-a871-bc4b76569403")
 		(property "Reference" "TP6"
-			(at 190.5 52.0699 90)
+			(at 185.42 46.9899 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5800,7 +5931,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 190.5 54.6099 90)
+			(at 185.42 49.5299 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5810,8 +5941,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:S175146R"
-			(at 185.42 58.42 0)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm"
+			(at 180.34 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5822,7 +5953,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 185.42 58.42 0)
+			(at 180.34 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5833,7 +5964,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 185.42 53.34 0)
+			(at 180.34 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7066,6 +7197,85 @@
 			(project "UREX_PDB"
 				(path "/a38818e8-e869-45a4-b642-866064a1ec6a/1b4f9c7e-4f3b-411b-8660-d0f0445392c4"
 					(reference "J36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 31.75 49.53 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "85f89432-a109-43e4-b191-7e93195a4325")
+		(property "Reference" "TP7"
+			(at 36.83 48.2599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 36.83 50.7999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm"
+			(at 31.75 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.75 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 31.75 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8db3b7ac-afaf-41cd-ba63-10a1b0a2a43a")
+		)
+		(instances
+			(project "UREX_PDB"
+				(path "/a38818e8-e869-45a4-b642-866064a1ec6a/1b4f9c7e-4f3b-411b-8660-d0f0445392c4"
+					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -8584,7 +8794,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:S175146R"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm"
 			(at 38.1 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -8663,7 +8873,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:S175146R"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm"
 			(at 36.83 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -8893,7 +9103,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:S175146R"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm"
 			(at 40.64 151.13 0)
 			(hide yes)
 			(show_name no)
