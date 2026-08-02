@@ -52,8 +52,8 @@
         "zones": {
           "border_display_style": 2,
           "border_hatch_pitch": 0.5,
-          "corner_radius": 0.0,
-          "corner_smoothing": 0,
+          "corner_radius": 0.5,
+          "corner_smoothing": 1,
           "fill_mode": 0,
           "hatch_gap": 1.5,
           "hatch_orientation": 0.0,
@@ -62,7 +62,7 @@
           "hatch_thickness": 1.0,
           "min_clearance": 0.3,
           "min_island_area": 10.0,
-          "min_thickness": 0.25,
+          "min_thickness": 0.2,
           "pad_connection": 2,
           "remove_islands": 0,
           "thermal_relief_gap": 0.5,
@@ -531,9 +531,9 @@
       {
         "bus_width": 12,
         "clearance": 0.1524,
-        "diff_pair_gap": 0.1524,
+        "diff_pair_gap": 0.2042,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.1524,
+        "diff_pair_width": 0.25,
         "line_style": 0,
         "microvia_diameter": 0.4572,
         "microvia_drill": 0.254,
@@ -548,9 +548,33 @@
         "wire_width": 6
       },
       {
-        "name": "I2C2_SDA",
+        "diff_pair_gap": 0.2042,
+        "diff_pair_width": 0.25,
+        "name": "CAN+",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "tuning_profile": "",
+        "via_diameter": 0.61,
+        "via_drill": 0.3
+      },
+      {
+        "diff_pair_gap": 0.2042,
+        "diff_pair_width": 0.25,
+        "name": "CAN-",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "tuning_profile": "",
+        "via_diameter": 0.61,
+        "via_drill": 0.3
+      },
+      {
+        "name": "I2C2_SDA",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.205,
         "tuning_profile": "",
@@ -560,7 +584,7 @@
       {
         "name": "I2C2_SDL",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.205,
         "tuning_profile": "",
@@ -577,7 +601,7 @@
         "microvia_drill": 0.254,
         "name": "Power_1",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.3048,
         "tuning_profile": "",
@@ -595,7 +619,7 @@
         "microvia_drill": 0.254,
         "name": "Power_2",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
+        "priority": 5,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.508,
         "tuning_profile": "",
@@ -805,7 +829,7 @@
         "uuid": "a38818e8-e869-45a4-b642-866064a1ec6a"
       }
     ],
-    "used_designators": "TP7-8,#PWR41",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
