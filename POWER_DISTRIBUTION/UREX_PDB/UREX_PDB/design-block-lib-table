@@ -1,4 +1,6 @@
 (design_block_lib_table
 	(version 7)
 	(lib (name "SamacSys_Parts") (type "KiCad") (uri "D:/KiCad/PROJECT_SIGMA/STATE ESTIMATION/POWER_DISTRIBUTION/power_stuff/power_stuff/SAMACSYS_LIB_PDB/SamacSys_Parts.3dshapes") (options "") (descr ""))
+	(lib (name "TPS552892RYQR") (type "KiCad") (uri "D:/KiCad/PROJECT_SIGMA/STATE ESTIMATION/POWER_DISTRIBUTION/power_stuff/power_stuff/SAMACSYS_LIB_PDB/ul_XTPS552892RYQR") (options "") (descr ""))
+	(lib (name "LM1117120QDCYRQ1") (type "KiCad") (uri "D:/KiCad/PROJECT_SIGMA/STATE ESTIMATION/POWER_DISTRIBUTION/power_stuff/power_stuff/SAMACSYS_LIB_PDB/ul_PLM1117120QDCYRQ1") (options "") (descr ""))
 )

@@ -10349,7 +10349,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100nF @50V"
 			(at 41.91 48.2538 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11459,7 +11459,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100nF @50V"
 			(at 113.03 49.5362 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12261,7 +12261,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100nF @50V"
 			(at 181.61 30.4862 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13476,7 +13476,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100nF @50V"
 			(at 240.03 102.8762 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14280,6 +14280,52 @@
 			(project "UREX_PDB"
 				(path "/a38818e8-e869-45a4-b642-866064a1ec6a"
 					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 308.61 -30.48)
+		(size 123.19 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "a74d2375-a1f7-4647-8abf-c183c07c399a")
+		(property "Sheetname" "HighCurrentDCDC"
+			(at 308.61 -31.1916 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "HighCurrentDCDC.kicad_sch"
+			(at 308.61 -4.4954 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "UREX_PDB"
+				(path "/a38818e8-e869-45a4-b642-866064a1ec6a"
+					(page "6")
 				)
 			)
 		)

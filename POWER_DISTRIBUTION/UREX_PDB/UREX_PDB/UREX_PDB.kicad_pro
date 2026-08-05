@@ -133,7 +133,7 @@
         "too_many_vias": "error",
         "track_angle": "error",
         "track_dangling": "warning",
-        "track_not_centered_on_via": "ignore",
+        "track_not_centered_on_via": "warning",
         "track_on_post_machined_layer": "error",
         "track_segment_length": "error",
         "track_width": "error",
@@ -740,7 +740,7 @@
           "group_by": false,
           "label": "Manufacturer_Part_Number",
           "name": "Manufacturer_Part_Number",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -810,6 +810,14 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "reuse_designators": true,
@@ -829,7 +837,7 @@
         "uuid": "a38818e8-e869-45a4-b642-866064a1ec6a"
       }
     ],
-    "used_designators": "",
+    "used_designators": "U2-5,#PWR1-12,#PWR14,#PWR16,#PWR42-52,#PWR55,#PWR57-58,#PWR63-64,#PWR158-159,#PWR203,#PWR207,#PWR238-242,#FLG6-10,R17-18,R22-29,IC6,C1-8,C14-17,C19-22,C36-41,C55,FB2,F2,CF1-2,L1",
     "variants": []
   },
   "sheets": [
@@ -852,6 +860,10 @@
     [
       "9e1dd132-3630-423f-a0f5-e2ddee46fcad",
       "Pyro Channels"
+    ],
+    [
+      "a74d2375-a1f7-4647-8abf-c183c07c399a",
+      "HighCurrentDCDC"
     ]
   ],
   "text_variables": {},

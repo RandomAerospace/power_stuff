@@ -6090,7 +6090,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100nF @50V"
 			(at 104.1463 100.33 90)
 			(show_name no)
 			(do_not_autoplace no)
