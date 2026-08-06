@@ -3270,7 +3270,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "18nF"
+		(property "Value" "22nF"
 			(at 156.21 133.604 0)
 			(show_name no)
 			(do_not_autoplace no)

@@ -1698,14 +1698,14 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SamacSys_Parts:S2B-PH-SM4-TB_LF__SN_"
+		(symbol "SamacSys_Parts:S3B-PH-SM4-TB_LF__SN_"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J"
-				(at 19.05 7.62 0)
+				(at 16.51 7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1715,8 +1715,8 @@
 					(justify left top)
 				)
 			)
-			(property "Value" "S2B-PH-SM4-TB_LF__SN_"
-				(at 19.05 5.08 0)
+			(property "Value" "S3B-PH-SM4-TB_LF__SN_"
+				(at 16.51 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1726,20 +1726,8 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "S2BPHSM4TBLFSN"
-				(at 19.05 -94.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/ePH.pdf"
-				(at 19.05 -194.92 0)
+			(property "Footprint" "S3BPHSM4TBLFSN"
+				(at 16.51 -94.92 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1750,7 +1738,19 @@
 					(justify left top)
 				)
 			)
-			(property "Description" "Conn Shrouded Header (4 Sides) HDR 2 POS 2mm Solder RA Side Entry SMD T/R"
+			(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/75c02eb1799788a6b14d7c521ee36df4.pdf"
+				(at 16.51 -194.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "PH SMT side entry shroud header 3 way JST PH Series, 2mm Pitch 3 Way 1 Row Right Angle PCB Header, Solder Termination, 2A"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1761,8 +1761,8 @@
 					)
 				)
 			)
-			(property "Height" "6.6"
-				(at 19.05 -394.92 0)
+			(property "Height" "5.5"
+				(at 16.51 -394.92 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1774,7 +1774,7 @@
 				)
 			)
 			(property "Mouser Part Number" "N/A"
-				(at 19.05 -494.92 0)
+				(at 16.51 -494.92 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1785,8 +1785,8 @@
 					(justify left top)
 				)
 			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/JST-Commercial/S2B-PH-SM4-TBLFSN?qs=QpmGXVUTftEA9IU90i0xlg%3D%3D"
-				(at 19.05 -594.92 0)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/JST-Commercial/S3B-PH-SM4-TBLFSN?qs=QpmGXVUTftGJXptUJFK7oQ%3D%3D"
+				(at 16.51 -594.92 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1798,7 +1798,7 @@
 				)
 			)
 			(property "Manufacturer_Name" "JST (JAPAN SOLDERLESS TERMINALS)"
-				(at 19.05 -694.92 0)
+				(at 16.51 -694.92 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1809,8 +1809,8 @@
 					(justify left top)
 				)
 			)
-			(property "Manufacturer_Part_Number" "S2B-PH-SM4-TB(LF)(SN)"
-				(at 19.05 -794.92 0)
+			(property "Manufacturer_Part_Number" "S3B-PH-SM4-TB(LF)(SN)"
+				(at 16.51 -794.92 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1821,10 +1821,10 @@
 					(justify left top)
 				)
 			)
-			(symbol "S2B-PH-SM4-TB_LF__SN__1_1"
+			(symbol "S3B-PH-SM4-TB_LF__SN__1_1"
 				(rectangle
 					(start 5.08 2.54)
-					(end 17.78 -5.08)
+					(end 15.24 -7.62)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -1834,7 +1834,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -2.54 0)
+					(at 0 -5.08 0)
 					(length 5.08)
 					(name "1"
 						(effects
@@ -1852,7 +1852,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 0 0)
+					(at 0 -2.54 0)
 					(length 5.08)
 					(name "2"
 						(effects
@@ -1870,16 +1870,16 @@
 					)
 				)
 				(pin passive line
-					(at 22.86 -2.54 180)
+					(at 0 0 0)
 					(length 5.08)
-					(name "MP1"
+					(name "3"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "MP1"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1888,16 +1888,34 @@
 					)
 				)
 				(pin passive line
-					(at 22.86 0 180)
+					(at 20.32 0 180)
 					(length 5.08)
-					(name "MP2"
+					(name "4"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "MP2"
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -2.54 180)
+					(length 5.08)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2655,7 +2673,7 @@
 	)
 	(text "TO OPERATE IN NORMAL MODE, PULL STB TO GND\n"
 		(exclude_from_sim no)
-		(at 246.634 49.784 0)
+		(at 233.934 46.736 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2757,7 +2775,7 @@
 		(uuid "8c42582d-386c-4f82-9839-0a330e52ebe2")
 	)
 	(junction
-		(at 240.03 55.88)
+		(at 240.03 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9226da2d-33ef-4ef3-94f1-41a669d05b9b")
@@ -2769,7 +2787,7 @@
 		(uuid "ea03bd72-55b5-4a67-bad1-917fb56d947d")
 	)
 	(junction
-		(at 240.03 63.5)
+		(at 240.03 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fdffed32-27aa-4fe8-a98b-0e00448ef741")
@@ -2783,19 +2801,19 @@
 		(uuid "123be3af-1081-4392-9ae7-5d12e33d91e8")
 	)
 	(no_connect
-		(at 273.05 60.96)
+		(at 273.05 55.88)
 		(uuid "1f0a6fe5-9a23-4900-9e71-f23ed734d049")
-	)
-	(no_connect
-		(at 21.59 185.42)
-		(uuid "2f24bd9d-466e-46c2-bf74-16c84f9be6bd")
 	)
 	(no_connect
 		(at 88.9 92.71)
 		(uuid "3cafa58c-5ed8-482b-958c-6d8fa7cfd94b")
 	)
 	(no_connect
-		(at 273.05 58.42)
+		(at 44.45 171.45)
+		(uuid "4fefd859-3c75-429a-8475-9a7fb67a48cd")
+	)
+	(no_connect
+		(at 273.05 53.34)
 		(uuid "5767ffac-7db6-44cf-91da-2b6ca0d6c5f4")
 	)
 	(no_connect
@@ -2803,16 +2821,12 @@
 		(uuid "578e0771-3830-4c4a-b5db-87c79862d623")
 	)
 	(no_connect
-		(at 44.45 185.42)
-		(uuid "5d5680ae-2897-4082-a294-2cbc12609930")
-	)
-	(no_connect
-		(at 21.59 171.45)
-		(uuid "666de8cb-1e8d-435a-9e1f-4f36b15d210c")
-	)
-	(no_connect
 		(at 88.9 67.31)
 		(uuid "735dd952-c715-4143-b0ab-9572a30ff6e0")
+	)
+	(no_connect
+		(at 44.45 185.42)
+		(uuid "73afcc6a-3e9d-4cf6-a453-5416430325a3")
 	)
 	(no_connect
 		(at 58.42 52.07)
@@ -2827,16 +2841,16 @@
 		(uuid "9b4325b6-2668-4628-8c69-de52114d6fc6")
 	)
 	(no_connect
+		(at 21.59 185.42)
+		(uuid "ac0e5706-352a-410e-b1e8-2e8d074929c9")
+	)
+	(no_connect
 		(at 88.9 49.53)
 		(uuid "cc80a188-edb3-4dbb-aecc-683b6680a7c0")
 	)
 	(no_connect
 		(at 246.38 29.21)
 		(uuid "d9fd0c39-c5a7-4e11-b598-76d7bd789db6")
-	)
-	(no_connect
-		(at 44.45 171.45)
-		(uuid "db623bcd-8707-4630-a91b-3042f809f7b6")
 	)
 	(no_connect
 		(at 88.9 59.69)
@@ -2852,7 +2866,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 55.88) (xy 240.03 55.88)
+			(xy 218.44 53.34) (xy 240.03 53.34)
 		)
 		(stroke
 			(width 0)
@@ -2872,7 +2886,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 62.23) (xy 240.03 63.5)
+			(xy 240.03 59.69) (xy 240.03 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2922,7 +2936,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 63.5) (xy 247.65 63.5)
+			(xy 240.03 60.96) (xy 247.65 60.96)
 		)
 		(stroke
 			(width 0)
@@ -3042,16 +3056,6 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 55.88) (xy 247.65 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ef11b9d-be11-4fab-8709-c3a0bfba7225")
-	)
-	(wire
-		(pts
 			(xy 195.58 120.65) (xy 195.58 125.73)
 		)
 		(stroke
@@ -3069,16 +3073,6 @@
 			(type default)
 		)
 		(uuid "4cf3c1b1-4fc1-456a-bb80-3995867e1185")
-	)
-	(wire
-		(pts
-			(xy 247.65 58.42) (xy 250.19 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4f504e8a-d30d-40d1-8087-052aa27cd9a2")
 	)
 	(wire
 		(pts
@@ -3192,6 +3186,16 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 55.88) (xy 252.73 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b0372f1-9636-4352-b908-be905a06646a")
+	)
+	(wire
+		(pts
 			(xy 200.66 123.19) (xy 201.93 123.19)
 		)
 		(stroke
@@ -3229,6 +3233,16 @@
 			(type default)
 		)
 		(uuid "8dd26f46-f1e5-4eab-a74d-01d0e41991bb")
+	)
+	(wire
+		(pts
+			(xy 250.19 58.42) (xy 250.19 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91a8024f-9e29-427e-823e-04f1d30e5395")
 	)
 	(wire
 		(pts
@@ -3272,6 +3286,16 @@
 	)
 	(wire
 		(pts
+			(xy 252.73 58.42) (xy 250.19 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4f409e2-d4c9-460e-871c-d1e0fff716a6")
+	)
+	(wire
+		(pts
 			(xy 44.45 34.29) (xy 44.45 31.75)
 		)
 		(stroke
@@ -3312,13 +3336,23 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 63.5) (xy 240.03 63.5)
+			(xy 218.44 60.96) (xy 240.03 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b5ab5358-05df-4009-9592-d461691382e9")
+	)
+	(wire
+		(pts
+			(xy 240.03 53.34) (xy 252.73 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5cb6935-50e2-4101-be73-7c76888dd8bf")
 	)
 	(wire
 		(pts
@@ -3329,16 +3363,6 @@
 			(type default)
 		)
 		(uuid "b820e1cd-f8e6-44aa-8144-2be7589793c9")
-	)
-	(wire
-		(pts
-			(xy 247.65 60.96) (xy 250.19 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bd477bea-6b28-4de5-a32e-82cb20a72eba")
 	)
 	(wire
 		(pts
@@ -3402,16 +3426,6 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 55.88) (xy 247.65 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e7f081f4-0892-4a6e-80e4-be9afc7efede")
-	)
-	(wire
-		(pts
 			(xy 73.66 35.56) (xy 73.66 39.37)
 		)
 		(stroke
@@ -3422,7 +3436,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 60.96) (xy 247.65 63.5)
+			(xy 247.65 55.88) (xy 247.65 60.96)
 		)
 		(stroke
 			(width 0)
@@ -3452,7 +3466,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 55.88) (xy 240.03 57.15)
+			(xy 240.03 53.34) (xy 240.03 54.61)
 		)
 		(stroke
 			(width 0)
@@ -9376,7 +9390,7 @@
 	)
 	(global_label "CAN+"
 		(shape bidirectional)
-		(at 218.44 55.88 180)
+		(at 218.44 53.34 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9386,7 +9400,7 @@
 		)
 		(uuid "d58c95da-f31e-4ea5-a4b2-43e5c5ff684d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 209.082 55.88 0)
+			(at 209.082 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9424,7 +9438,7 @@
 	)
 	(global_label "CAN-"
 		(shape bidirectional)
-		(at 218.44 63.5 180)
+		(at 218.44 60.96 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9434,7 +9448,7 @@
 		)
 		(uuid "e483ed14-6122-483d-86c0-3f0dceeec3b4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 209.082 63.5 0)
+			(at 209.082 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10585,8 +10599,8 @@
 		)
 	)
 	(symbol
-		(lib_id "SamacSys_Parts:S2B-PH-SM4-TB_LF__SN_")
-		(at 250.19 58.42 0)
+		(lib_id "power:GND")
+		(at 250.19 60.96 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10595,9 +10609,10 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "38eacd4e-c829-4e7f-8099-bbc89c53f7dc")
-		(property "Reference" "J1"
-			(at 261.62 50.8 0)
+		(uuid "38b3cf6c-af9c-4371-8850-c2e48a4d3c12")
+		(property "Reference" "#PWR0238"
+			(at 250.19 67.31 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10606,8 +10621,8 @@
 				)
 			)
 		)
-		(property "Value" "S2B-PH-SM4-TB_LF__SN_"
-			(at 261.62 53.34 0)
+		(property "Value" "GND"
+			(at 250.19 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10616,8 +10631,84 @@
 				)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:S2BPHSM4TBLFSN"
-			(at 269.24 153.34 0)
+		(property "Footprint" ""
+			(at 250.19 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 250.19 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 250.19 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bcc9256f-2a60-4fed-b539-fd2bec5df767")
+		)
+		(instances
+			(project "UREX_PDB"
+				(path "/a38818e8-e869-45a4-b642-866064a1ec6a"
+					(reference "#PWR0238")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:S3B-PH-SM4-TB_LF__SN_")
+		(at 252.73 53.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3f79fd45-3a9a-45e0-84cf-fcd18085b192")
+		(property "Reference" "J12"
+			(at 262.89 45.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "S3B-PH-SM4-TB_LF__SN_"
+			(at 270.51 49.022 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:S3BPHSM4TBLFSN"
+			(at 269.24 148.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10628,8 +10719,8 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/ePH.pdf"
-			(at 269.24 253.34 0)
+		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/75c02eb1799788a6b14d7c521ee36df4.pdf"
+			(at 269.24 248.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10640,8 +10731,8 @@
 				(justify left top)
 			)
 		)
-		(property "Description" "Conn Shrouded Header (4 Sides) HDR 2 POS 2mm Solder RA Side Entry SMD T/R"
-			(at 250.19 58.42 0)
+		(property "Description" "PH SMT side entry shroud header 3 way JST PH Series, 2mm Pitch 3 Way 1 Row Right Angle PCB Header, Solder Termination, 2A"
+			(at 252.73 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10651,8 +10742,8 @@
 				)
 			)
 		)
-		(property "Height" "6.6"
-			(at 269.24 453.34 0)
+		(property "Height" "5.5"
+			(at 269.24 448.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10664,7 +10755,7 @@
 			)
 		)
 		(property "Mouser Part Number" "N/A"
-			(at 269.24 553.34 0)
+			(at 269.24 548.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10675,8 +10766,8 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/JST-Commercial/S2B-PH-SM4-TBLFSN?qs=QpmGXVUTftEA9IU90i0xlg%3D%3D"
-			(at 269.24 653.34 0)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/JST-Commercial/S3B-PH-SM4-TBLFSN?qs=QpmGXVUTftGJXptUJFK7oQ%3D%3D"
+			(at 269.24 648.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10688,7 +10779,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "JST (JAPAN SOLDERLESS TERMINALS)"
-			(at 269.24 753.34 0)
+			(at 269.24 748.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10699,8 +10790,8 @@
 				(justify left top)
 			)
 		)
-		(property "Manufacturer_Part_Number" "S2B-PH-SM4-TB(LF)(SN)"
-			(at 269.24 853.34 0)
+		(property "Manufacturer_Part_Number" "S3B-PH-SM4-TB(LF)(SN)"
+			(at 269.24 848.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10710,23 +10801,26 @@
 				)
 				(justify left top)
 			)
-		)
-		(pin "2"
-			(uuid "ead36648-44d3-4728-a515-4e7d187a34a0")
-		)
-		(pin "MP1"
-			(uuid "edd27f96-8635-4423-807f-eeb9a6293fde")
 		)
 		(pin "1"
-			(uuid "a56f0ea9-9139-4d59-ac6b-e66998a7df42")
+			(uuid "27aa0d79-22ad-475a-90ec-e91915ae7a93")
 		)
-		(pin "MP2"
-			(uuid "c6a5d07a-37fe-4ecd-8cb1-a9ad78abdf14")
+		(pin "4"
+			(uuid "42a6107d-7d2f-49b1-92d6-3706ac02a308")
+		)
+		(pin "5"
+			(uuid "a7918ee4-a077-47e8-b57c-0607fdb4c763")
+		)
+		(pin "3"
+			(uuid "979faf83-e1de-4b54-a2ab-ae80e6116eb9")
+		)
+		(pin "2"
+			(uuid "2073202e-25cf-4905-a3f4-0107c31466c6")
 		)
 		(instances
 			(project "UREX_PDB"
 				(path "/a38818e8-e869-45a4-b642-866064a1ec6a"
-					(reference "J1")
+					(reference "J12")
 					(unit 1)
 				)
 			)
@@ -11089,7 +11183,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -11116,7 +11210,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad"
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_ISO7380"
 			(at 44.45 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -11343,7 +11437,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -11371,7 +11465,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad"
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_ISO7380"
 			(at 44.45 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -11720,7 +11814,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 240.03 59.69 0)
+		(at 240.03 57.15 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11731,7 +11825,7 @@
 		(fields_autoplaced yes)
 		(uuid "62bef66f-514b-46cc-93ac-ac85375ca752")
 		(property "Reference" "R2"
-			(at 242.57 58.4199 0)
+			(at 242.57 55.8799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11742,7 +11836,7 @@
 			)
 		)
 		(property "Value" "120r"
-			(at 242.57 60.9599 0)
+			(at 242.57 58.4199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11753,7 +11847,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 240.03 59.69 0)
+			(at 240.03 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11764,7 +11858,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 240.03 59.69 0)
+			(at 240.03 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11775,7 +11869,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 240.03 59.69 0)
+			(at 240.03 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13019,6 +13113,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 21.59 171.45 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b5e850e3-81ca-4252-96bf-259198a08e62")
+		(property "Reference" "#PWR0203"
+			(at 21.59 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 21.59 175.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 21.59 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 21.59 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 21.59 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6496035c-ec9b-4e38-ac32-509421a705b2")
+		)
+		(instances
+			(project "UREX_PDB"
+				(path "/a38818e8-e869-45a4-b642-866064a1ec6a"
+					(reference "#PWR0203")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 124.46 48.26 0)
 		(unit 1)
@@ -13282,7 +13453,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -13310,7 +13481,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad"
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_ISO7380"
 			(at 21.59 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -13818,7 +13989,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -13846,7 +14017,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad"
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad_Via"
 			(at 21.59 182.88 0)
 			(hide yes)
 			(show_name no)
