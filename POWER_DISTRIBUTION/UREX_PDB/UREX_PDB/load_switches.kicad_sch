@@ -1936,6 +1936,26 @@
 		)
 		(uuid "5949b783-26a3-4f4e-bc09-5ff5b8de7e36")
 	)
+	(text "PG:\nThe signal is an active high \nand open drain output which can be connected to a voltage source through an external pullup resistor, RPU. This \nvoltage source can be VOUT from the TPS22997 device or another external voltage. "
+		(exclude_from_sim no)
+		(at 202.438 159.258 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "680e16d0-e061-4223-a0b2-affd2a82f924")
+	)
+	(text " QOD pin shorted to VOUT pin. Using this method, the discharge rate after the switch becomes disabled \nis controlled with the value of the internal resistance RQOD. The value of this resistance is listed in the \nElectrical Characteristics table."
+		(exclude_from_sim no)
+		(at 206.756 151.638 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "796dedbd-f049-4dee-97da-342d7fb7e7ad")
+	)
 	(text "5VDC BUS 1"
 		(exclude_from_sim no)
 		(at 178.816 91.186 0)
@@ -2424,16 +2444,6 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 171.45) (xy 39.37 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "24190fa6-3db0-4dd8-8fb1-2e504be4d417")
-	)
-	(wire
-		(pts
 			(xy 129.54 113.03) (xy 129.54 115.57)
 		)
 		(stroke
@@ -2504,16 +2514,6 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 124.46) (xy 187.96 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3577830d-1bb0-4aa5-8b71-da8ad9acfd14")
-	)
-	(wire
-		(pts
 			(xy 72.39 74.93) (xy 72.39 77.47)
 		)
 		(stroke
@@ -2534,13 +2534,13 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 118.11) (xy 39.37 120.65)
+			(xy 38.1 181.61) (xy 38.1 184.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "38c32510-0bca-44dc-b5c8-9e2057359f68")
+		(uuid "3761396b-dabd-4fa4-bd72-70a76bef474f")
 	)
 	(wire
 		(pts
@@ -2581,6 +2581,16 @@
 			(type default)
 		)
 		(uuid "3c7523e2-d15a-4b6a-8dc6-fcad0c9e6395")
+	)
+	(wire
+		(pts
+			(xy 38.1 171.45) (xy 52.07 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "419dd4bb-481a-41bc-bbdb-c72f4d3a36a2")
 	)
 	(wire
 		(pts
@@ -2664,16 +2674,6 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 179.07) (xy 39.37 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c853106-a073-48d6-80ce-ca800503d539")
-	)
-	(wire
-		(pts
 			(xy 138.43 34.29) (xy 138.43 33.02)
 		)
 		(stroke
@@ -2681,6 +2681,16 @@
 			(type default)
 		)
 		(uuid "4cd4360a-443c-4dc5-b725-0485f87d7580")
+	)
+	(wire
+		(pts
+			(xy 38.1 176.53) (xy 38.1 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e8cb7d9-877a-4576-87e7-a6c3f868d577")
 	)
 	(wire
 		(pts
@@ -2721,16 +2731,6 @@
 			(type default)
 		)
 		(uuid "51cdea66-a237-46f7-9146-dec92c0375fa")
-	)
-	(wire
-		(pts
-			(xy 175.26 132.08) (xy 175.26 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "522750ec-6a7d-41ed-873b-e2ebc56c29df")
 	)
 	(wire
 		(pts
@@ -2804,16 +2804,6 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 118.11) (xy 52.07 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d66e9ed-ac52-4bb2-950e-3c10beaa0779")
-	)
-	(wire
-		(pts
 			(xy 180.34 52.07) (xy 186.69 52.07)
 		)
 		(stroke
@@ -2821,6 +2811,16 @@
 			(type default)
 		)
 		(uuid "60ebe406-88d8-40cc-80c9-38adb79ba7f5")
+	)
+	(wire
+		(pts
+			(xy 39.37 119.38) (xy 39.37 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6165d9dd-a08c-47b8-8ab7-7c9166a5caa6")
 	)
 	(wire
 		(pts
@@ -2944,16 +2944,6 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 125.73) (xy 39.37 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "742196fa-116c-497c-8ebf-9df908c11b46")
-	)
-	(wire
-		(pts
 			(xy 186.69 52.07) (xy 186.69 54.61)
 		)
 		(stroke
@@ -3051,16 +3041,6 @@
 			(type default)
 		)
 		(uuid "7ee6a423-221b-4f09-afd9-8c4300fef78c")
-	)
-	(wire
-		(pts
-			(xy 175.26 124.46) (xy 175.26 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8009c2b0-7a58-4374-aa4d-aada6453e7a5")
 	)
 	(wire
 		(pts
@@ -3174,6 +3154,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 118.11) (xy 52.07 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9aeff4f6-9d4e-491a-8671-46f7c2d268c7")
+	)
+	(wire
+		(pts
 			(xy 52.07 113.03) (xy 46.99 113.03)
 		)
 		(stroke
@@ -3271,6 +3261,16 @@
 			(type default)
 		)
 		(uuid "ab51f04b-44b5-42be-9caf-dc1011541d43")
+	)
+	(wire
+		(pts
+			(xy 176.53 132.08) (xy 176.53 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abb1e84f-8e30-4754-8f5b-8b6bb6177f15")
 	)
 	(wire
 		(pts
@@ -3384,6 +3384,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 124.46) (xy 39.37 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdfb06bd-f80e-492e-8b2f-e9f5fd7f3864")
+	)
+	(wire
+		(pts
 			(xy 187.96 34.29) (xy 196.85 34.29)
 		)
 		(stroke
@@ -3431,16 +3441,6 @@
 			(type default)
 		)
 		(uuid "c526e6de-4035-4ced-8313-e82b28c69284")
-	)
-	(wire
-		(pts
-			(xy 39.37 171.45) (xy 52.07 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c7c75194-1be2-480d-b773-6e0f480ee329")
 	)
 	(wire
 		(pts
@@ -3684,6 +3684,16 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 124.46) (xy 176.53 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0da340e-a73f-4aa2-aac3-7bbe3c353bb3")
+	)
+	(wire
+		(pts
 			(xy 52.07 166.37) (xy 46.99 166.37)
 		)
 		(stroke
@@ -3861,6 +3871,16 @@
 			(type default)
 		)
 		(uuid "fab2e0f5-848d-4e89-8a35-3a5925b9dc21")
+	)
+	(wire
+		(pts
+			(xy 187.96 124.46) (xy 176.53 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb646735-919e-4cd7-998c-017605a44594")
 	)
 	(wire
 		(pts
@@ -4092,6 +4112,84 @@
 			(project "UREX_PDB"
 				(path "/a38818e8-e869-45a4-b642-866064a1ec6a/0b04c32d-1a49-4c90-ac64-d21e1f9527af"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 92.71 67.31 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "091bd015-e406-4d98-9b80-0f8dee2650d2")
+		(property "Reference" "#PWR0239"
+			(at 92.71 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VBAT_Fused_OUT"
+			(at 92.71 62.23 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 92.71 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "37098802-fab0-4327-9da9-0b4fdb0d9dab")
+		)
+		(instances
+			(project "UREX_PDB"
+				(path "/a38818e8-e869-45a4-b642-866064a1ec6a/0b04c32d-1a49-4c90-ac64-d21e1f9527af"
+					(reference "#PWR0239")
 					(unit 1)
 				)
 			)
@@ -5395,84 +5493,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 39.37 128.27 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3f01e7dd-3dbb-49e3-b767-4818fac93aaf")
-		(property "Reference" "#PWR0228"
-			(at 39.37 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 39.37 133.35 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 39.37 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 39.37 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 39.37 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "75b1b443-2c3b-433e-b57e-5f91ab879173")
-		)
-		(instances
-			(project "UREX_PDB"
-				(path "/a38818e8-e869-45a4-b642-866064a1ec6a/0b04c32d-1a49-4c90-ac64-d21e1f9527af"
-					(reference "#PWR0228")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 110.49 176.53 0)
 		(unit 1)
@@ -6034,6 +6054,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VCC")
+		(at 39.37 127 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4dbd599e-93d8-4ef7-886f-7a30759726d4")
+		(property "Reference" "#PWR076"
+			(at 39.37 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5VDC_BUS1"
+			(at 42.672 130.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.37 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 39.37 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6c12aa2d-e679-433e-952c-fac341b29bb1")
+		)
+		(instances
+			(project "UREX_PDB"
+				(path "/a38818e8-e869-45a4-b642-866064a1ec6a/0b04c32d-1a49-4c90-ac64-d21e1f9527af"
+					(reference "#PWR076")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 36.83 153.67 0)
 		(unit 1)
@@ -6187,84 +6285,6 @@
 			(project "UREX_PDB"
 				(path "/a38818e8-e869-45a4-b642-866064a1ec6a/0b04c32d-1a49-4c90-ac64-d21e1f9527af"
 					(reference "C28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+BATT")
-		(at 92.71 67.31 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4eec1b28-7ae8-410a-84fe-58c8c31ef471")
-		(property "Reference" "#PWR0231"
-			(at 92.71 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VBAT+"
-			(at 92.71 62.23 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 92.71 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 92.71 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 92.71 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "10b4ce19-dae9-4960-9ec7-70602a96cb58")
-		)
-		(instances
-			(project "UREX_PDB"
-				(path "/a38818e8-e869-45a4-b642-866064a1ec6a/0b04c32d-1a49-4c90-ac64-d21e1f9527af"
-					(reference "#PWR0231")
 					(unit 1)
 				)
 			)
@@ -8148,84 +8168,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 175.26 133.35 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "82d0a46d-ddb5-4b59-a95b-14c5b1cd526a")
-		(property "Reference" "#PWR0230"
-			(at 175.26 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 175.26 138.43 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 175.26 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 175.26 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 175.26 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ea67fffc-9ad3-4c98-a0cc-348dadb8ba29")
-		)
-		(instances
-			(project "UREX_PDB"
-				(path "/a38818e8-e869-45a4-b642-866064a1ec6a/0b04c32d-1a49-4c90-ac64-d21e1f9527af"
-					(reference "#PWR0230")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND1")
 		(at 40.64 53.34 0)
 		(unit 1)
@@ -8621,7 +8563,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 39.37 176.53 180)
+		(at 38.1 179.07 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8631,7 +8573,7 @@
 		(dnp no)
 		(uuid "98b173a7-f0be-4949-8fbc-4dfd9d180c13")
 		(property "Reference" "R20"
-			(at 43.18 176.53 90)
+			(at 41.91 179.07 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8641,7 +8583,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 41.402 176.53 90)
+			(at 40.132 179.07 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8651,7 +8593,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 39.37 176.53 0)
+			(at 38.1 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8662,7 +8604,7 @@
 			)
 		)
 		(property "Datasheet" "CRCW040210K0FKED"
-			(at 39.37 176.53 0)
+			(at 38.1 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8673,7 +8615,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 39.37 176.53 0)
+			(at 38.1 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9014,6 +8956,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VCC")
+		(at 38.1 184.15 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "aaab2cb8-df86-4332-8202-7bf0b9606121")
+		(property "Reference" "#PWR077"
+			(at 38.1 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5VDC_BUS2"
+			(at 41.402 187.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 38.1 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "082bc8c5-bb5c-4ce0-b9a0-38fa15d48007")
+		)
+		(instances
+			(project "UREX_PDB"
+				(path "/a38818e8-e869-45a4-b642-866064a1ec6a/0b04c32d-1a49-4c90-ac64-d21e1f9527af"
+					(reference "#PWR077")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND1")
 		(at 124.46 182.88 0)
 		(unit 1)
@@ -9171,7 +9191,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 175.26 129.54 180)
+		(at 176.53 129.54 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9181,7 +9201,7 @@
 		(dnp no)
 		(uuid "b00d3662-8da0-4250-b372-e785fcacc0ce")
 		(property "Reference" "R21"
-			(at 179.07 129.54 90)
+			(at 172.72 129.54 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9191,7 +9211,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 177.292 129.54 90)
+			(at 174.498 129.54 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9201,7 +9221,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 175.26 129.54 0)
+			(at 176.53 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9212,7 +9232,7 @@
 			)
 		)
 		(property "Datasheet" "CRCW040210K0FKED"
-			(at 175.26 129.54 0)
+			(at 176.53 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9223,7 +9243,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 175.26 129.54 0)
+			(at 176.53 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9481,6 +9501,84 @@
 			(project "UREX_PDB"
 				(path "/a38818e8-e869-45a4-b642-866064a1ec6a/0b04c32d-1a49-4c90-ac64-d21e1f9527af"
 					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 180.34 68.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c0086fb9-9e0a-4e9d-829b-5f10fab8ba68")
+		(property "Reference" "#PWR0236"
+			(at 180.34 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VBAT_Fused_OUT"
+			(at 180.34 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 180.34 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 180.34 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "781fd8ba-2c22-4b13-af92-6bf7a3830b44")
+		)
+		(instances
+			(project "UREX_PDB"
+				(path "/a38818e8-e869-45a4-b642-866064a1ec6a/0b04c32d-1a49-4c90-ac64-d21e1f9527af"
+					(reference "#PWR0236")
 					(unit 1)
 				)
 			)
@@ -10284,84 +10382,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 39.37 184.15 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e106042d-81ff-48f4-a5ff-7d0e934cc56d")
-		(property "Reference" "#PWR0236"
-			(at 39.37 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 39.37 189.23 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 39.37 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 39.37 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 39.37 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a3aa8044-1e0b-4d20-b788-22edb84238b1")
-		)
-		(instances
-			(project "UREX_PDB"
-				(path "/a38818e8-e869-45a4-b642-866064a1ec6a/0b04c32d-1a49-4c90-ac64-d21e1f9527af"
-					(reference "#PWR0236")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND1")
 		(at 46.99 121.92 0)
 		(unit 1)
@@ -10674,84 +10694,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+BATT")
-		(at 180.34 68.58 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f0c40b33-f3ca-4991-8079-88c0c4ea55aa")
-		(property "Reference" "#PWR0232"
-			(at 180.34 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VBAT+"
-			(at 180.34 63.5 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 180.34 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 180.34 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 180.34 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0b1d128c-b55d-4c62-92d7-4dc8a2df0d62")
-		)
-		(instances
-			(project "UREX_PDB"
-				(path "/a38818e8-e869-45a4-b642-866064a1ec6a/0b04c32d-1a49-4c90-ac64-d21e1f9527af"
-					(reference "#PWR0232")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND1")
 		(at 160.02 134.62 0)
 		(unit 1)
@@ -10831,7 +10773,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 39.37 123.19 180)
+		(at 39.37 121.92 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10841,7 +10783,7 @@
 		(dnp no)
 		(uuid "f7033426-0d97-427f-ad83-57714f947a80")
 		(property "Reference" "R19"
-			(at 43.18 123.19 90)
+			(at 43.18 121.92 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10851,7 +10793,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 41.402 123.19 90)
+			(at 41.402 121.92 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10861,7 +10803,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 39.37 123.19 0)
+			(at 39.37 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10872,7 +10814,7 @@
 			)
 		)
 		(property "Datasheet" "CRCW040210K0FKED"
-			(at 39.37 123.19 0)
+			(at 39.37 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10883,7 +10825,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 39.37 123.19 0)
+			(at 39.37 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10903,6 +10845,84 @@
 			(project "UREX_PDB"
 				(path "/a38818e8-e869-45a4-b642-866064a1ec6a/0b04c32d-1a49-4c90-ac64-d21e1f9527af"
 					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 176.53 134.62 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "faeaed3c-b75b-4de6-a731-890edce3b4b1")
+		(property "Reference" "#PWR086"
+			(at 176.53 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5VDC_BUS3"
+			(at 179.832 138.43 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 176.53 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 176.53 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a3cb82d1-7608-470c-9b65-f35269fef1b0")
+		)
+		(instances
+			(project "UREX_PDB"
+				(path "/a38818e8-e869-45a4-b642-866064a1ec6a/0b04c32d-1a49-4c90-ac64-d21e1f9527af"
+					(reference "#PWR086")
 					(unit 1)
 				)
 			)

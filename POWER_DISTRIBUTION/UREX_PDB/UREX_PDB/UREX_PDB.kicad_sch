@@ -2681,6 +2681,16 @@
 		)
 		(uuid "09bfc272-da8b-4ba2-943c-daadee26e72f")
 	)
+	(text "reset is active low!\n"
+		(exclude_from_sim no)
+		(at 248.412 82.042 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3afb7b77-51b9-4160-83e0-1f68ba5ad133")
+	)
 	(text "pullup resistors\n"
 		(exclude_from_sim no)
 		(at 38.862 129.286 0)
