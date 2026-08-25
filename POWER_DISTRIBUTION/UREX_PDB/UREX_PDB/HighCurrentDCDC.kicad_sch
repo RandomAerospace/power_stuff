@@ -3996,7 +3996,7 @@
 			)
 		)
 		(property "Value" "10uF@50V"
-			(at 49.53 86.614 0)
+			(at 48.768 86.614 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4145,7 +4145,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 40.64 87.63 180)
+		(at 40.64 87.63 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4155,7 +4155,7 @@
 		(dnp no)
 		(uuid "8799f0fa-7b19-4562-954b-458a40e48166")
 		(property "Reference" "C14"
-			(at 38.1 88.8938 0)
+			(at 33.782 87.122 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4166,7 +4166,7 @@
 			)
 		)
 		(property "Value" "330uF@50v"
-			(at 38.1 86.614 0)
+			(at 27.94 89.154 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

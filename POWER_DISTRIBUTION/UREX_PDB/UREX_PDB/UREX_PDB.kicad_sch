@@ -2661,9 +2661,9 @@
 		)
 		(uuid "cb62bd75-4971-40db-b28b-6fb42513ad0f")
 	)
-	(text "UARTS are flipped here"
+	(text "UARTS are flipped here\nissue:net is unused in actual board!\n\n"
 		(exclude_from_sim no)
-		(at 113.792 71.628 0)
+		(at 121.92 71.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
